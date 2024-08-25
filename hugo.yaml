@@ -90,7 +90,7 @@ params:
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
 
-  privacy_policy: https://policies.google.com/privacy
+  privacy_policy: https://r.spl.swiss/privacy
 
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
@@ -136,8 +136,8 @@ params:
   prism_syntax_highlighting: false
 
   copyright:
-    authors: Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
-    from_year: 2018
+    authors: SPL Cloud GmbH | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+    from_year: 2021
 
   # User interface configuration
   ui:
@@ -175,7 +175,7 @@ params:
     user:
       - name: SPL Website
         url: https://spl.swiss
-        icon: fa fa-envelope
+        icon: fa fa-globe
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub

@@ -4,8 +4,7 @@ Add styles or override variables from the theme here.
 
 */
 
-@media (min-width: 768px) {
-    .td-default main > section:first-of-type {
-        padding-top: 10rem;
-    }
-}
+$primary: #300926;
+$secondary: #968193;
+
+$link-color: #0b0930;
