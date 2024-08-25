@@ -1,0 +1,11 @@
+/*
+
+Add styles or override variables from the theme here.
+
+*/
+
+@media (min-width: 768px) {
+    .td-default main > section:first-of-type {
+        padding-top: 10rem;
+    }
+}
