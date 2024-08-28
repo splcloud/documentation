@@ -8,7 +8,7 @@ description: >-
 
 ## 1. Sensor mit dem PC/MAC/Raspi verbinden
 Blablabla.
-![Dies ist ein Testbild](docs/Testbild.png "Testbild")
+![Dies ist ein Testbild]('Testbild.png' "Testbild")
 ## 2. Sensoraufstellung
 Blablabla.
 ## 3. Übersicht SPL Sense
