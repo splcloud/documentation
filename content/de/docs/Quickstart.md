@@ -8,6 +8,7 @@ description: >-
 
 ## 1. Sensor mit dem PC/MAC/Raspi verbinden
 Blablabla.
+![Dies ist ein Testbild](Testbild.png "Testbild")
 ## 2. Sensoraufstellung
 Blablabla.
 ## 3. Übersicht SPL Sense
@@ -26,3 +27,4 @@ Blablabla.
 Blablabla.
 ## 10. Datenexport
 Blablabla.
+dfgdfgdfg
