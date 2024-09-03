@@ -8,11 +8,11 @@ description: >-
 
 ## Überblick Dashboard
 ![Dashboard](Dashboard.png)
-•	Logo in der linken oberen Ecke: Klickt man auf das Logo, gelangt man zurück zum Dashboard.
-•	Statusanzeige (rechts oben): Zeigt den aktuellen Status an (keine Messung geladen / Messung gestoppt / Messung läuft).
-•	Einstellungen (Zahnradsymbol rechts oben): Öffnet die Einstellungen.
-•	Neue Messung erstellen: Klicken Sie auf den «+»-Knopf neben "Gespeicherte Messungen", um eine neue Messung zu erstellen.
-•	Verbundenen Sensor anzeigen: Auf der rechten Seite wird der verbundene Messsensor angezeigt. Ein Klick darauf zeigt den detaillierten Status des Sensors.
+•	Logo in der linken oberen Ecke: Klickt man auf das Logo, gelangt man zurück zum Dashboard.<br>
+•	Statusanzeige (rechts oben): Zeigt den aktuellen Status an (keine Messung geladen / Messung gestoppt / Messung läuft).<br>
+•	Einstellungen (Zahnradsymbol rechts oben): Öffnet die Einstellungen.<br>
+•	Neue Messung erstellen: Klicken Sie auf den «+»-Knopf neben "Gespeicherte Messungen", um eine neue Messung zu erstellen.<br>
+•	Verbundenen Sensor anzeigen: Auf der rechten Seite wird der verbundene Messsensor angezeigt. Ein Klick darauf zeigt den detaillierten Status des Sensors.<br>
 ## Sensor-Einstellungen
 ![Sensorübersicht](Sensor.png)
 •	Im Sensor-Detailbildschirm können Sie die Kompensation für den Wetterschutz aktivieren. Ist diese Option aktiv, wird der Wetterschutz durch einen FIR-Filter im Sensor kompensiert.
