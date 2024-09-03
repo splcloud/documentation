@@ -24,7 +24,7 @@ Jedes SPL Sense kann mit der SPL Cloud verbunden werden, um Daten in Echtzeit ei
 ![Cloud Verbindung](ConnectCloud.png)
 3.	Verbindung herstellen: Klicken Sie auf den Link oder scannen Sie den QR-Code. (Das SPL Sense muss mit dem Internet verbunden sein, und ein persönlicher Zugang zur SPL Cloud muss erstellt werden.)
 Nach Abschluss der Schritte ist das SPL Sense mit der SPL Cloud verbunden
-![Cloud verbunden](ConnectCloudCloudStatus.png)
+![Cloud verbunden](ConnectCloudCloudstatus.png)
 ## Messung erstellen
 1.	Neue Messung erstellen: Klicken Sie auf den «+»-Knopf neben „Gespeicherte Messungen“.
 2.	Name eingeben: Geben Sie einen Namen für die Messung ein. Dieser Name wird später als Überschrift der Messung angezeigt.
@@ -41,7 +41,7 @@ Nach dem Speichern erscheint die Messung auf dem Dashboard. Eine Wolke neben der
 2.	Messung aktivieren: Aktivieren Sie die Messung mit dem Knopf auf der rechten Seite. Beachten Sie, dass immer nur eine Messung gleichzeitig aktiv sein kann.
 ![Akitiverte Messung](MessungAktiviert.png)
 3.	Grundeinstellungen anpassen: Unter „Messung bearbeiten“ auf der rechten Seite können die Grundeinstellungen der Messung angepasst werden. Zusätzlich zu den bereits erwähnten Parametern können hier auch Offsets eingestellt und ein PIN für das Verlassen des Livescreens eingetragen werden. Außerdem besteht die Möglichkeit, die Messung dauerhaft mit allen Daten vom Rechner zu löschen.
-![Messung Bearbeiten](MessungBerarbeiten.png)
+![Messung Bearbeiten](MessungBearbeiten.png)
 4.	Offset einstellen: Der Offset kann mithilfe der Funktion „Offset tune“ auf der rechten Seite festgelegt werden. Alle Messwerte, die während dieses Prozesses erfasst werden, werden nicht in die Messung gespeichert. Wir empfehlen, den Offset (die Pegeldifferenz zwischen dem lautesten Punkt und dem Standort des Sensors während der Messung) mit einem Testsignal, z. B. Pink Noise, einzustellen. Gehen Sie dazu wie folgt vor:
 ![Offset tune](Offsettune.png)
 1.	Pink Noise abspielen: Verwenden Sie eine Lautstärke, die während des Konzerts oder der Veranstaltung zu erwarten ist.
