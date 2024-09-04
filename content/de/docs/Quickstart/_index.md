@@ -51,8 +51,7 @@ c.	**Publikumsfläche ablaufen:** Bewege dich mit dem Rechner und dem Sensor dur
 d.	**Sensor platzieren:** Stelle den Sensor an der vorgesehenen Messposition auf.<br>
 e.	**Offset anpassen:** Justiere den Offsetwert so, dass der „Level inkl. Offset“ dem „Max inkl. Offset“ entspricht.<br>
 f.	**Einstellungen speichern:** Speicher die vorgenommenen Anpassungen.<br>
-Alternativ kann der Differenzpegel auch mit einem zusätzlichen Handmessgerät ermittelt werden. Weitere Informationen zum Thema Sensorstandort und Offset findest du unter folgendem Link: (Link hier einfügen).
-![Brachenempfehlung für das Messverfahren](https://www.bag.admin.ch/dam/bag/de/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20DE.pdf) <br>
+Alternativ kann der Differenzpegel auch mit einem zusätzlichen Handmessgerät ermittelt werden. Weitere Informationen zum Thema Sensorstandort und Offset findest du unter folgendem Link: (Link hier einfügen). <br>
 ## Messung starten
 1.	**Messung starten:** Starte die Messung über die Schaltfläche auf der rechten Seite.<br>
 ![übersicht laufende Messung](Messunglaeuft.png) <br>
