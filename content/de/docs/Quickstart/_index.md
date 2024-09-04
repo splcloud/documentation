@@ -43,14 +43,15 @@ Nach dem Speichern erscheint die Messung auf dem Dashboard. Eine Wolke neben der
 ![Akitiverte Messung](MessungAktiviert.png) <br>
 3.	**Grundeinstellungen anpassen:** Unter „Messung bearbeiten“ auf der rechten Seite können die Grundeinstellungen der Messung angepasst werden. Zusätzlich zu den bereits erwähnten Parametern können hier auch Offsets eingestellt und ein PIN für das Verlassen des Livescreens eingetragen werden. Außerdem besteht die Möglichkeit, die Messung dauerhaft mit allen Daten vom Rechner zu löschen.<br>
 ![Messung Bearbeiten](MessungBearbeiten.png) <br>
-4.	**Offset einstellen:** Der Offset kann mithilfe der Funktion „Offset tune“ auf der rechten Seite festgelegt werden. Alle Messwerte, die während dieses Prozesses erfasst werden, werden nicht in die Messung gespeichert. Wir empfehlen, den Offset (die Pegeldifferenz zwischen dem lautesten Punkt und dem Standort des Sensors während der Messung) mit einem Testsignal, z. B. Pink Noise, einzustellen. Gehe dazu wie folgt vor:<br>
+## Offset tune
+Der Offset kann mithilfe der Funktion „Offset tune“ auf der rechten Seite festgelegt werden. Alle Messwerte, die während dieses Prozesses erfasst werden, werden nicht in die Messung gespeichert. Wir empfehlen, den Offset (die Pegeldifferenz zwischen dem lautesten Punkt und dem Standort des Sensors während der Messung) mit einem Testsignal, z. B. Pink Noise, einzustellen. Gehe dazu wie folgt vor:<br>
 ![Offset tune](Offsettune.png) <br>
-a.	**Pink Noise abspielen:** Verwende eine Lautstärke, die während des Konzerts oder der Veranstaltung zu erwarten ist.<br>
-b.	**Maximalwert zurücksetzen:** Drücke den Knopf „Max zurücksetzen“.<br>
-c.	**Publikumsfläche ablaufen:** Bewege dich mit dem Rechner und dem Sensor durch die Publikumsfläche.<br>
-d.	**Sensor platzieren:** Stelle den Sensor an der vorgesehenen Messposition auf.<br>
-e.	**Offset anpassen:** Justiere den Offsetwert so, dass der „Level inkl. Offset“ dem „Max inkl. Offset“ entspricht.<br>
-f.	**Einstellungen speichern:** Speicher die vorgenommenen Anpassungen.<br>
+1.	**Pink Noise abspielen:** Verwende eine Lautstärke, die während des Konzerts oder der Veranstaltung zu erwarten ist.<br>
+2.	**Maximalwert zurücksetzen:** Drücke den Knopf „Max zurücksetzen“.<br>
+3.	**Publikumsfläche ablaufen:** Bewege dich mit dem Rechner und dem Sensor durch die Publikumsfläche.<br>
+4.	**Sensor platzieren:** Stelle den Sensor an der vorgesehenen Messposition auf.<br>
+5.	**Offset anpassen:** Justiere den Offsetwert so, dass der „Level inkl. Offset“ dem „Max inkl. Offset“ entspricht.<br>
+6.	**Einstellungen speichern:** Speicher die vorgenommenen Anpassungen.<br>
 Alternativ kann der Differenzpegel auch mit einem zusätzlichen Handmessgerät ermittelt werden. Weitere Informationen zum Thema Sensorstandort und Offset findest du unter folgendem Link: (Link hier einfügen). <br>
 [Branchenempfehlung für das Messverfahren](https://www.bag.admin.ch/dam/bag/de/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20DE.pdf) <br>
 ## Messung starten
