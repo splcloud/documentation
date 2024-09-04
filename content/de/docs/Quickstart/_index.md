@@ -8,7 +8,7 @@ description: >-
 
 ## Überblick Dashboard
 ![Dashboard](Dashboard.png)
-•	Logo in der linken oberen Ecke: Klickt man auf das Logo, gelangt man zurück zum Dashboard.<br>
+•	**Logo in der linken oberen Ecke:** Klickt man auf das Logo, gelangt man zurück zum Dashboard.<br>
 •	Statusanzeige (rechts oben): Zeigt den aktuellen Status an (keine Messung geladen / Messung gestoppt / Messung läuft).<br>
 •	Einstellungen (Zahnradsymbol rechts oben): Öffnet die Einstellungen.<br>
 •	Neue Messung erstellen: Klicken Sie auf den «+»-Knopf neben "Gespeicherte Messungen", um eine neue Messung zu erstellen.<br>
