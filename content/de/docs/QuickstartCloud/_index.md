@@ -1,67 +1,75 @@
 ---
-title: "Quick start guide"
-linkTitle: "Quick start guide"
+title: "Quick start guide SPL Cloud"
+linkTitle: "Quick start guide SPL Cloud"
 weight: 100
 description: >-
-     Kurzanleitung zur Inbetriebnahme von einer Messung.
+     Kurzanleitung SPL Cloud
 ---
 
-## Überblick Dashboard
-![Dashboard](Dashboard.png) <br>
-•	**Logo in der linken oberen Ecke:** Klickt man auf das Logo, gelangt man zurück zum Dashboard.<br>
-•	**Statusanzeige (rechts oben):** Zeigt den aktuellen Status an (keine Messung geladen / Messung gestoppt / Messung läuft).<br>
-•	**Einstellungen (Zahnradsymbol rechts oben):** Öffnet die Einstellungen.<br>
-•	**Neue Messung erstellen:** Klicken Sie auf den «+»-Knopf neben "Gespeicherte Messungen", um eine neue Messung zu erstellen.<br>
-•	**Verbundenen Sensor anzeigen:** Auf der rechten Seite wird der verbundene Messsensor angezeigt. Ein Klick darauf zeigt den detaillierten Status des Sensors.<br>
-## Sensor-Status / Einstellungen
-![Sensorübersicht](Sensor.png) <br>
-Im Sensor-Detailbildschirm kannst du die Kompensation für den Wetterschutz aktivieren. Ist diese Option aktiv, wird der Wetterschutz durch einen FIR-Filter im Sensor kompensiert.<br>
-## Verbindung zur SPL Cloud (optional)
-Jedes SPL Sense kann mit der SPL Cloud verbunden werden, um Daten in Echtzeit einzusehen und zu speichern.<br>
-1.	**Einstellungen öffnen:** Klicke auf das Zahnradsymbol oben rechts.<br>
-![Übersicht Einstellungen](Einstellungen.png) <br>
-2.	**Cloud auswählen:** Wähle die Option "Cloud".<br>
-![Cloud Verbindung](ConnectCloud.png) <br>
-3.	**Verbindung herstellen:** Klicke auf den Link oder scanne den QR-Code. (Das SPL Sense muss mit dem Internet verbunden sein, und ein persönlicher Zugang zur SPL Cloud muss erstellt werden.)
-Nach Abschluss der Schritte ist das SPL Sense mit der SPL Cloud verbunden.<br>
-![Cloud verbunden](ConnectCloudCloudstatus.png) <br>
-## Messung erstellen
-1.	**Neue Messung erstellen:** Klicke auf den «+»-Knopf neben „Gespeicherte Messungen“.<br>
-2.	**Name eingeben:** Gebe einen Namen für die Messung ein. Dieser Name wird später als Überschrift der Messung angezeigt.<br>
-3.	**Tagesgrenze festlegen:** Stelle die Tagesgrenze ein. Diese kann von Mitternacht bis 06:00 Uhr am Morgen verschoben werden. So wird z. B. ein Konzert oder eine Party in einer Tagesübersicht angezeigt und nicht durch den Tageswechsel auf zwei Tage verteilt. Wir empfehlen, die Grenze etwa 2 Stunden nach dem erwarteten Ende des Events zu setzen.<br>
-4.	**Cloud-Uplink aktivieren:** Aktiviere den Cloud-Uplink, um diese Messung in die Cloud zu übertragen. Diese Option ist nur verfügbar, wenn das SPL Sense mit der SPL Cloud verbunden ist. Wenn keine Verbindung besteht, wird dies entsprechend angezeigt.<br>
-![Cloud Uplink](CloudUplink.png) <br>
-5.	**Werteprofil auswählen:** Wähle ein Werteprofil, das definiert, welche Werte mit welchen Filtern (A/C/Z) und welchen Integrationszeiten aufgezeichnet werden. Zudem können Grenzwerte für drei verschiedene Stufen (Benachrichtigung, Warnung, Limit) eingestellt werden. Das Ereignisprotokoll wird entsprechend diesen Stufen sortiert. Neben den vorgespeicherten Profilen, die sich an der V-NISSG orientieren, können auch eigene Profile erstellt werden.<br>
-![Werteprofil auswählen](NeueMessungWerteprofil.png) <br>
-6.	**Messung speichern:** Speicher die Messung.<br>
-![Messung auf dem Dashbard mit Cloud](MessungAngelegtMitCloud.png) <br>
-Nach dem Speichern erscheint die Messung auf dem Dashboard. Eine Wolke neben der Messungsüberschrift zeigt an, ob die Messung in die SPL Cloud übertragen wird.<br>
-## Messung öffnen und bearbeiten
-1.	**Messung öffnen:** Klicke im Dashboard auf die gewünschte Messung, um sie zu öffnen.<br>
-![Messung Übersicht](MessungDetailsOhneDaten.png) <br>
-2.	**Messung aktivieren:** Aktiviere die Messung mit dem Knopf auf der rechten Seite. Beachte, dass immer nur eine Messung gleichzeitig aktiv sein kann.<br>
-![Akitiverte Messung](MessungAktiviert.png) <br>
-3.	**Grundeinstellungen anpassen:** Unter „Messung bearbeiten“ auf der rechten Seite können die Grundeinstellungen der Messung angepasst werden. Zusätzlich zu den bereits erwähnten Parametern können hier auch Offsets eingestellt und ein PIN für das Verlassen des Livescreens eingetragen werden. Außerdem besteht die Möglichkeit, die Messung dauerhaft mit allen Daten vom Rechner zu löschen.<br>
-![Messung Bearbeiten](MessungBearbeiten.png) <br>
-## Offset tune
-Der Offset kann mithilfe der Funktion „Offset tune“ auf der rechten Seite festgelegt werden. Alle Messwerte, die während dieses Prozesses erfasst werden, werden nicht in die Messung gespeichert. Wir empfehlen, den Offset (die Pegeldifferenz zwischen dem lautesten Punkt und dem Standort des Sensors während der Messung) mit einem Testsignal, z. B. Pink Noise, einzustellen. Gehe dazu wie folgt vor:<br>
-![Offset tune](Offsettune.png) <br>
-1.	**Pink Noise abspielen:** Verwende eine Lautstärke, die während des Konzerts oder der Veranstaltung zu erwarten ist.<br>
-2.	**Maximalwert zurücksetzen:** Drücke den Knopf „Max zurücksetzen“.<br>
-3.	**Publikumsfläche ablaufen:** Bewege dich mit dem Rechner und dem Sensor durch die Publikumsfläche.<br>
-4.	**Sensor platzieren:** Stelle den Sensor an der vorgesehenen Messposition auf.<br>
-5.	**Offset anpassen:** Justiere den Offsetwert so, dass der „Level inkl. Offset“ dem „Max inkl. Offset“ entspricht.<br>
-6.	**Einstellungen speichern:** Speicher die vorgenommenen Anpassungen.<br>
-Alternativ kann der Differenzpegel auch mit einem zusätzlichen Handmessgerät ermittelt werden. Weitere Informationen zum Thema Sensorstandort und Offset findest du unter folgendem Link: [Branchenempfehlung für das Messverfahren](https://www.bag.admin.ch/dam/bag/de/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20DE.pdf) <br>
-## Messung starten
-1.	**Messung starten:** Starte die Messung über die Schaltfläche auf der rechten Seite.<br>
-![übersicht laufende Messung](Messunglaeuft.png) <br>
-2.	**Aktuelle Lautstärke anzeigen:** Die aktuelle Lautstärke wird ebenfalls auf der rechten Seite angezeigt.<br>
-3.	**Lautstärkenverlauf verfolgen:** Eine Grafik dokumentiert den Verlauf der Lautstärke im Zeitverlauf. Wenn Du in die Grafik klickst, werden zusätzliche Details wie Spektraldaten sowie das Unterschreiten oder Überschreiten des Messbereichs angezeigt.<br>
-4.	**Cloud-Verbindungsstatus:** Der Verbindungsstatus zur Cloud wird auf der rechten Seite angezeigt.<br>
-5.	**Überschreitungen anzeigen:** Unter „Überschreitungen“ werden Pegelüberschreitungen gemäß den im Werteprofil definierten Gewichtungen und Integrationszeiten aufgelistet. Durch Anklicken der einzelnen Kategorien werden in der Grafik die definierten Stufengrenzwerte als gelbe, orange und rote Linien angezeigt.<br>
-6.	**Ereignisprotokoll:** Im Feld „Ereignisse“ auf der rechten Seite werden Aktionen wie Starten und Stoppen der Messung sowie Anpassungen am Offset mit der jeweiligen Zeit aufgelistet.<br>
-7.	**Live-Ansicht aufrufen:** Durch Klicken auf „Live Ansicht“ auf der rechten Seite wird die Liveansicht angezeigt.<br>
-![Liveansicht](LiveScreen.png) <br>
-8.	**Liveansichten umschalten:** Oben rechts kannst Du zwischen verschiedenen Liveansichten umschalten. Es können auch eigene Live Ansichten erstellt werden. Die Liveansicht bietet eine übersichtliche Darstellung der gewünschten Messwerte während des Events und ist besonders hilfreich für Techniker oder DJs.<br>
-9.	**Zurück zur Messungsübersicht:** Um zur Messübersicht zurückzukehren, klickst Du auf „Zurück zur Messung“. Wenn ein PIN für das Verlassen der Live-Ansicht unter „Messung bearbeiten“ festgelegt wurde, wird dieser nun abgefragt, um sicherzustellen, dass nur berechtigte Personen die Einstellungen in der Messung ändern können.<br>
+## SPL Cloud Kurzanleitung
+Erste Anmeldung / Konto erstellen
+1.	Öffne im Browser: https://spl.cloud/
+<Bild>
+2.	Wenn du bereits ein Konto erstellt hast: Logge dich mit deiner E-Mail und deinem Passwort ein.
+3.	Wenn du noch kein Konto hast: Klicke auf «Sign up now».
+<Bild>
+4.	E-Mail-Adresse eingeben: Gib deine gültige E-Mail-Adresse ein.
+5.	Verifizieren: Klicke auf «Send verification code» und bestätige den Code, den du per E-Mail an deine E-Mail-Adresse erhältst.
+6.	Fülle die restlichen Felder wie Passwort, Vorname, Nachname und Anzeigename aus.
+7.	Bestätige: Mit «Create» die Erstellung des Kontos bestätigen.
+Überblick Dashboard
+•	Logo in der linken oberen Ecke: Klickt man auf das Logo, gelangt man zurück zum Dashboard.
+•	Einstellungen (Zahnradsymbol rechts oben): Öffnet die Einstellungen.
+•	Neuer Messauftrag erstellen: Klicke auf den «+»-Knopf neben "Messaufträge und Messungen", um eine neue Messauftrag zu erstellen.
+•	Verbundene SPL Sense Instanzen anzeigen: Auf der rechten Seite werden verbundene SPL Sense Instanzen angezeigt.
+•	Frühere Messaufträge und Messungen: Hier gelangst du zum Archiv deiner Messungen.
+Einstellungen
+Über das Zahnradsymbol oben rechts kommst du zu den Einstellungen. Hier kannst du Profileinstellungen anpassen und Organisationen verwalten. Eine Organisation kann deine Firma oder auch ein Event sein. Ein Gefäß, in dem Personen mit verschiedenen Rechten abgebildet werden können.
+Organisation erstellen
+1.	Organisation erstellen: Klicke auf "Organisation erstellen".
+2.	Angaben: Entscheide selbst, welche Angaben für dich relevant sind, und setze diese ein.
+<Bild>
+Nach der Erstellung bist du automatisch als Mitglied aufgeführt. Deine Rolle ist «Besitzer». Nun können weitere Mitglieder hinzugefügt werden. Wichtig ist, dass die Personen bereits registriert sind.
+3.	Mitglied hinzufügen: Wähle "Mitglied hinzufügen", um weitere Personen zu erfassen.
+4.	E-Mail-Adresse eingeben: Gib die E-Mail-Adresse ein, mit der die Person bei SPL Cloud registriert ist.
+5.	Benutzer bestätigen: Wenn es die Person (E-Mail-Adresse) gibt, wird sie als «Benutzer gefunden» vorgeschlagen. Bestätige die Person mit «Auswählen».
+6.	Rolle zuweisen: Wähle nun, ob die Person «Mitglied» oder «Besitzer» ist. Der Unterschied ist, dass Besitzer zusätzlich die Personen der Organisation verwalten können.
+7.	Mitglied anpassen: Wenn du ein Mitglied deiner Organisation entfernen möchtest, wähle es aus und klicke auf «Mitglied entfernen». Ebenso kannst du die Rolle einer Person anpassen.
+SPL Sense mit der SPL Cloud verbinden
+Jedes SPL Sense kann mit der SPL Cloud verbunden werden, um Daten in Echtzeit einzusehen und zu speichern. In der Kurzanleitung von SPL Sense findest du das Vorgehen.
+1.	Registrierung bestätigen: Sobald du im SPL Sense den Verbindungslink angeklickt oder den QR-Code gescannt hast, musst du die Registrierung der SPL Sense Instanz bestätigen.
+<Bild>
+2.	Besitzer definieren: Du kannst Mitglied in verschiedenen Organisationen sein. Somit kannst du auswählen, ob die Messung nur dir als Person oder einer Organisation, in der du Mitglied bist, gehören soll.
+<Bild>
+3.	SPL Sense Instanz entfernen: Du kannst die Verbindung zur Cloud im SPL Sense lösen (siehe SPL Sense Anleitung) oder auch in deinen Organisationen die SPL Sense Instanzen verwalten.
+Messaufträge und Messungen
+Wenn du eine SPL Sense Instanz mit der SPL Cloud verbunden hast und bei diesem SPL Sense eine Messung für die Cloud freigegeben wurde, wird die Messung als «Eigenständige Messung» im Dashboard angezeigt.
+<Bild>
+Messauftrag erstellen
+Du kannst mit dem «+»-Knopf neben «Messaufträge und Messungen» einen Messauftrag erstellen. Ein Messauftrag kann eine oder mehrere Messungen beinhalten und zusammenfassen.
+<Bild>
+•	Name: Gib hier z. B. den Namen des Festivals ein.
+•	Ort: Hier kannst du optional den Veranstaltungsort eintragen.
+•	Von-Bis: Gib die Dauer des Messauftrags ein. Dieser Datumsbereich ist wichtig, damit dir der Messauftrag in den aktuellen Messungen oder im Archiv angezeigt wird.
+•	Besitzer: Definiere, ob der Messauftrag dir oder einer Organisation gehört, in der du Mitglied bist.
+Messauftrag bearbeiten und Messung hinzufügen
+Durch Anklicken des Stiftes neben dem Messauftrag im Dashboard kannst du die Angaben des Messauftrags anpassen. Ebenfalls kannst du dem Messauftrag Messungen zuweisen.
+<Bild>
+•	Messung zuweisen: Unter «Messungen» «Messungen zuweisen» anklicken. Dann die gewünschte Messung auswählen.
+•	Messung entfernen: Wenn du eine Messung entfernen möchtest, kannst du bei der entsprechenden Messung auf «Entfernen» klicken. Nachdem du die Messungen dem Messauftrag zugewiesen hast, siehst du die Messungen auf dem Dashboard im entsprechenden Messauftrag.
+•	Messauftrag löschen: Du kannst mit «Messauftrag löschen» einen Messauftrag aus der Cloud entfernen. Dies ist jedoch nur möglich, wenn keine Messungen im Messauftrag vorhanden sind.
+Übersicht Messung
+Wenn du eine Messung im Dashboard anklickst, siehst du eine mit dem SPL Sense vergleichbare Übersicht. Weitere Infos dazu findest du in der Kurzanleitung vom SPL Sense.
+<Bild>
+Zugriff
+Es ist möglich, anderen bei SPL Cloud registrierten Personen oder nicht registrierten Personen Zugriff auf die Messungen und Messaufträge zu geben.
+1.	Messung öffnen: Klicke im Dashboard eine Messung an. Auf der rechten Seite werden die aktuellen Zugriffe angezeigt.
+2.	Zugriffsverwaltung: Wähle das Symbol in der rechten Ecke im Feld «Zugriff», um Zugriffe zu erstellen und zu verwalten.
+<Bild>
+3.	Art des Zugriffs wählen: Wähle «Lesezugriff hinzufügen», um bei SPL Cloud registrierten Personen einen Lesezugriff zu gewähren. Wähle «Zugriffslink hinzufügen», um Personen ohne Registrierung Zugriff zu gewähren.
+4.	Lesezugriff hinzufügen: Gib die E-Mail-Adresse der Person ein. Wenn sie auf SPL Cloud registriert ist, wird sie unter «Benutzer gefunden» aufgelistet und kann ausgewählt werden.
+<Bild>
+5.	Zugriffslink hinzufügen: Gib ein Verfallsdatum für den öffentlichen Lesezugriff ein. Wir empfehlen, das Datum auf ca. 10 Tage nach dem Ende des Events zu setzen.
+<Bild>
+6.	Link oder QR-Code kopieren: Der erstellte Link kann nun kopiert und z. B. in ein E-Mail eingefügt werden. Der QR-Code kann z. B. als Bild ausgedruckt und in einem Produktionsbüro des Festivals aufgehängt werden. Alle Personen, die Zugriff zum QR-Code oder dem Link haben, gelangen ohne Anmeldung direkt zum Messauftrag.
+
