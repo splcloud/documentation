@@ -6,7 +6,6 @@ description: >-
      Kurzanleitung SPL Cloud
 ---
 
-## SPL Cloud Kurzanleitung
 ## Erste Anmeldung / Konto erstellen
 1.	**Öffne im Browser:** https://spl.cloud/<br>
 <Bild>
