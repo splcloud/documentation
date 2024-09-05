@@ -1,9 +1,9 @@
 ---
-title: "Quick start guide"
-linkTitle: "Quick start guide"
+title: "Quick start guide SPL Sense"
+linkTitle: "Quick start guide SPL Sense"
 weight: 100
 description: >-
-     Kurzanleitung zur Inbetriebnahme von einer Messung.
+     Kurzanleitung SPL Sense
 ---
 
 ## Überblick Dashboard
