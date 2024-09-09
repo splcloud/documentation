@@ -17,6 +17,7 @@ description: >-
 6.	Fülle die restlichen Felder wie Passwort, Vorname, Nachname und Anzeigename aus.<br>
 7.	**Bestätige:** Mit «Create» die Erstellung des Kontos bestätigen.<br>
 ## Überblick Dashboard
+![Dashboard](Dashboard.png) <br>
 •	**Logo in der linken oberen Ecke:** Klickt man auf das Logo, gelangt man zurück zum Dashboard.<br>
 •	**Einstellungen (Zahnradsymbol rechts oben):** Öffnet die Einstellungen.<br>
 •	**Neuer Messauftrag erstellen:** Klicke auf den «+»-Knopf neben "Messaufträge und Messungen", um eine neue Messauftrag zu erstellen.<br>
