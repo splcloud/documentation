@@ -68,9 +68,9 @@ Es ist möglich, anderen bei SPL Cloud registrierten Personen oder nicht registr
 2.	**Zugriffsverwaltung:** Wähle das Symbol in der rechten Ecke im Feld «Zugriff», um Zugriffe zu erstellen und zu verwalten.<br>
 ![Zugriff](Zugriff.png) <br>
 3.	**Art des Zugriffs wählen:** Wähle «Lesezugriff hinzufügen», um bei SPL Cloud registrierten Personen einen Lesezugriff zu gewähren. Wähle «Zugriffslink hinzufügen», um Personen ohne Registrierung Zugriff zu gewähren.<br>
-4.	**Lesezugriff hinzufügen:** Gib die E-Mail-Adresse der Person ein. Wenn sie auf SPL Cloud registriert ist, wird sie unter «Benutzer gefunden» aufgelistet und kann ausgewählt werden.<br>
+4.	**Lesezugriff hinzufügen:** Gib die E-Mail-Adresse der Person ein. Wenn sie auf SPL Cloud registriert ist, wird sie unter «Benutzer gefunden» aufgelistet und kann ausgewählt werden. Nun kannst du wählen, ob die Person Zugriff auf die einzelne Messung oder den gesamten Messauftrag erhalten soll.<br>
 ![Lesezugriff](ZugriffOffen.png) <br>
-5.	**Zugriffslink hinzufügen:** Gib ein Verfallsdatum für den öffentlichen Lesezugriff ein. Wir empfehlen, das Datum auf ca. 10 Tage nach dem Ende des Events zu setzen.<br>
+5.	**Zugriffslink hinzufügen:** Gib ein Verfallsdatum für den öffentlichen Lesezugriff ein. Wir empfehlen, das Datum auf ca. 10 Tage nach dem Ende des Events zu setzen. Nun kannst du wählen, ob der Zugriff auf die einzelne Messung oder den gesamten Messauftrag möglich sein soll.<br>
 ![Lesezugriff erstellt](ZugriffOffenErstellt.png) <br>
 6.	**Link oder QR-Code kopieren:** Der erstellte Link kann nun kopiert und z. B. in ein E-Mail eingefügt werden. Der QR-Code kann z. B. als Bild ausgedruckt und in einem Produktionsbüro des Festivals aufgehängt werden. Alle Personen, die Zugriff zum QR-Code oder dem Link haben, gelangen ohne Anmeldung direkt zum Messauftrag.<br>
 
