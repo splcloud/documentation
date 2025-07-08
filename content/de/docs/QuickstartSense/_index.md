@@ -50,7 +50,7 @@ Der Offset kann mithilfe der Funktion „Offset tune“ auf der rechten Seite fe
 2.	**Maximalwert zurücksetzen:** Drücke den Knopf „Max zurücksetzen“.<br>
 3.	**Publikumsfläche ablaufen:** Bewege dich mit dem Rechner und dem Sensor durch die Publikumsfläche.<br>
 4.	**Sensor platzieren:** Stelle den Sensor an der vorgesehenen Messposition auf.<br>
-5.	**Offset anpassen:** Justiere den Offsetwert so, dass der „Level inkl. Offset“ dem „Max inkl. Offset“ entspricht.<br>
+5.	**Offset anpassen:** Justiere den Offsetwert so, dass der „Level inkl. Offset“ dem „Max LEQ1“ entspricht.<br>
 6.	**Einstellungen speichern:** Speicher die vorgenommenen Anpassungen.<br>
 Alternativ kann der Differenzpegel auch mit einem zusätzlichen Handmessgerät ermittelt werden. Weitere Informationen zum Thema Sensorstandort und Offset findest du unter folgendem Link: [Branchenempfehlung für das Messverfahren](https://www.bag.admin.ch/dam/bag/de/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20DE.pdf) <br>
 ## Leveler Plugin für den Audioprozessor
