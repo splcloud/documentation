@@ -31,7 +31,7 @@ description: >-
 
 ## Paramètres
 
-Via l'icône d'engrenage en haut à droite, tu accèdes aux paramètres. Tu peux y ajuster les paramètres du profil et gérer les organisations. Une organisation peut être ton entreprise ou un événement — un espace dans lequel des personnes peuvent être représentées avec différents rôles.  
+Via l'icône d'engrenage en haut à droite, tu accèdes aux paramètres. Tu peux y ajuster les paramètres du profil et gérer les organisations. Une organisation peut être ton entreprise ou un événement — un espace dans lequel des personnes peuvent être représentées avec différents droits.  
 ![Paramètres](https://docs.spl.swiss/docs/quickstartcloud/Einstellungen.png)  
 
 
@@ -102,4 +102,4 @@ Il est possible de donner accès aux mesures et missions de mesure à d'autres p
 ![Accès en lecture](https://docs.spl.swiss/docs/quickstartcloud/ZugriffOffen.png)  
 5. **Ajouter un lien d'accès :** Entre une date d'expiration pour l'accès en lecture public. Nous recommandons de fixer la date à environ 10 jours après la fin de l'événement. Tu peux ensuite choisir si l'accès doit porter sur la mesure individuelle ou sur l'ensemble de la mission de mesure.  
 ![Accès en lecture créé](https://docs.spl.swiss/docs/quickstartcloud/ZugriffOffenErstellt.png)  
-6. **Copier le lien ou le QR code :** Le lien généré peut être copié et collé par exemple dans un e-mail. Le QR code peut être imprimé et affiché dans la régie du festival. Toutes les personnes ayant accès au QR code ou au lien peuvent accéder directement à la mission de mesure sans se connecter.  
+6. **Copier le lien ou le QR code :** Le lien généré peut être copié et collé par exemple dans un e-mail. Le QR code peut être imprimé et affiché dans le bureau de production du festival. Toutes les personnes ayant accès au QR code ou au lien peuvent accéder directement à la mission de mesure sans se connecter.  
