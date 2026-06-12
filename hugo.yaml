@@ -59,6 +59,12 @@ languages:
       description: SPL - SPL Cloud, SPL Tools, SPL Sense - Dokumentation
       time_format_default: 02.01.2006
       time_format_blog: 02.01.2006
+  fr:
+    languageName: French
+    contentDir: content/fr
+    title: SPL Documentation
+    params:
+      description: SPL - SPL Cloud, SPL Tools, SPL Sense - Documentation
 
 markup:
   goldmark:
