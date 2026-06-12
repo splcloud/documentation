@@ -55,7 +55,7 @@ After saving, the measurement appears on the dashboard. A cloud icon next to the
 ![Measurement overview](https://docs.spl.swiss/docs/quickstartsense/MessungDetailsOhneDaten.png)  
 2. **Activate measurement:** Activate the measurement using the button on the right side. Note that only one measurement can be active at a time.  
 ![Activated measurement](https://docs.spl.swiss/docs/quickstartsense/MessungAktiviert.png)  
-3. **Adjust basic settings:** Under «Edit measurement» on the right side, the basic settings of the measurement can be adjusted. In addition to the parameters already mentioned, offsets can be set here and a PIN for exiting the live screen can be entered. It is also possible to permanently delete the measurement along with all its data from the device.  
+3. **Adjust basic settings:** Under «Edit measurement» on the right side, the basic settings of the measurement can be adjusted. In addition to the parameters already mentioned, offsets can be set here and a PIN for exiting the live screen can be entered. It is also possible to permanently delete the measurement along with all its data from the computer.  
 ![Edit measurement](https://docs.spl.swiss/docs/quickstartsense/MessungBearbeiten.png)  
 
 
@@ -66,7 +66,7 @@ The offset can be set using the «Offset tune» function on the right side. All 
 
 1. **Play pink noise:** Use a volume level expected during the concert or event.  
 2. **Reset maximum value:** Press the «Reset max» button.  
-3. **Walk through the audience area:** Move through the audience area with the device and sensor.  
+3. **Walk through the audience area:** Move through the audience area with the computer and sensor.  
 4. **Place sensor:** Set up the sensor at the designated measurement position.  
 5. **Adjust offset:** Adjust the offset value so that the «Level incl. offset» matches the «Max LEQ1».  
 6. **Save settings:** Save the adjustments made.  
