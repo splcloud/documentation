@@ -70,7 +70,7 @@ The offset can be set using the «Offset tune» function on the right side. All 
 4. **Place sensor:** Set up the sensor at the designated measurement position.  
 5. **Adjust offset:** Adjust the offset value so that the «Level incl. offset» matches the «Max LEQ1».  
 6. **Save settings:** Save the adjustments made.  
-Alternatively, the level difference can also be determined using an additional handheld measurement device. Further information on sensor placement and offset can be found at: [Industry recommendation for measurement procedures](https://www.bag.admin.ch/dam/bag/de/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20DE.pdf)  
+Alternatively, the level difference can also be determined using an additional handheld measurement device. Further information on sensor placement and offset can be found at: [Industry recommendation for measurement procedures](https://www.bag.admin.ch/dam/de/sd-web/KAIxMQtpqM6k/vnissg_vollzugshilfe_schall.pdf)  
 
 
 ## Leveler plugin for the audio processor
