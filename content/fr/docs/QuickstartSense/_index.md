@@ -70,7 +70,7 @@ L'offset peut être réglé à l'aide de la fonction «Offset tune» sur le côt
 4. **Placer le capteur :** Installe le capteur à la position de mesure prévue.  
 5. **Ajuster l'offset :** Règle la valeur d'offset de sorte que le «Niveau incl. offset» corresponde au «Max LEQ1».  
 6. **Sauvegarder les paramètres :** Sauvegarde les ajustements effectués.  
-La différence de niveau peut également être déterminée à l'aide d'un appareil de mesure portable supplémentaire. Plus d'informations sur l'emplacement du capteur et l'offset : [Recommandation de la branche pour le procédé de mesure]([https://www.bag.admin.ch/dam/bag/fr/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20FR.pdf](https://www.bag.admin.ch/dam/fr/sd-web/KAIxMQtpqM6k/vnissg_vollzugshilfe_schall.pdf))  
+La différence de niveau peut également être déterminée à l'aide d'un appareil de mesure portable supplémentaire. Plus d'informations sur l'emplacement du capteur et l'offset : [Recommandation de la branche pour le procédé de mesure](https://www.bag.admin.ch/dam/fr/sd-web/KAIxMQtpqM6k/vnissg_vollzugshilfe_schall.pdfhttps://www.bag.admin.ch/dam/fr/sd-web/KAIxMQtpqM6k/vnissg_vollzugshilfe_schall.pdf)  
 
 
 ## Plugin Leveler pour le processeur audio
