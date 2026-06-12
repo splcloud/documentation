@@ -31,7 +31,7 @@ description: >-
 
 ## Settings
 
-Via the gear icon in the top right you access the settings. Here you can adjust profile settings and manage organisations. An organisation can be your company or an event — a container in which people with different roles can be represented.  
+Via the gear icon in the top right you access the settings. Here you can adjust profile settings and manage organisations. An organisation can be your company or an event — a container in which people with different permissions can be represented.  
 ![Settings](https://docs.spl.swiss/docs/quickstartcloud/Einstellungen.png)  
 
 
