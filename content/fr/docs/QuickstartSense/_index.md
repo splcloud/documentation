@@ -42,7 +42,7 @@ Une fois ces étapes effectuées, SPL Sense est connecté à la SPL Cloud.
 3. **Définir la limite journalière :** Règle la limite journalière. Elle peut être décalée de minuit jusqu'à 06h00 du matin. Ainsi, un concert ou une fête est affiché dans une vue journalière unique et non réparti sur deux jours lors du passage à minuit. Nous recommandons de fixer la limite environ 2 heures après la fin prévue de l'événement.  
 4. **Activer la liaison cloud :** Active la liaison cloud pour transférer cette mesure vers le cloud. Cette option n'est disponible que si SPL Sense est connecté à la SPL Cloud. Si aucune connexion n'existe, cela sera indiqué en conséquence.  
 ![Liaison cloud](https://docs.spl.swiss/docs/quickstartsense/CloudUplink.png)  
-5. **Sélectionner un profil de valeurs :** Choisis un profil de valeurs qui définit quelles valeurs sont enregistrées avec quels filtres (A/C/Z) et quels temps d'intégration. Des valeurs limites pour trois niveaux différents (notification, avertissement, limite) peuvent également être configurées. Le journal d'événements est trié selon ces niveaux. En plus des profils préenregistrés basés sur la V-NISSG, tu peux également créer tes propres profils.  
+5. **Sélectionner un profil de valeurs :** Choisis un profil de valeurs qui définit quelles valeurs sont enregistrées avec quels filtres (A/C/Z) et quels temps d'intégration. Des valeurs limites pour trois niveaux différents (notification, avertissement, limite) peuvent également être configurées. Le journal d'événements est trié selon ces niveaux. En plus des profils préenregistrés basés sur l'O-LRNIS (V-NISSG), tu peux également créer tes propres profils.  
 ![Sélectionner un profil de valeurs](https://docs.spl.swiss/docs/quickstartsense/NeueMessungWerteprofil.png)  
 6. **Sauvegarder la mesure :** Sauvegarde la mesure.  
 ![Mesure dans le tableau de bord avec cloud](https://docs.spl.swiss/docs/quickstartsense/MessungAngelegtMitCloud.png)  
@@ -55,7 +55,7 @@ Après la sauvegarde, la mesure apparaît dans le tableau de bord. Une icône de
 ![Vue d'ensemble de la mesure](https://docs.spl.swiss/docs/quickstartsense/MessungDetailsOhneDaten.png)  
 2. **Activer la mesure :** Active la mesure avec le bouton sur le côté droit. Note qu'une seule mesure peut être active à la fois.  
 ![Mesure activée](https://docs.spl.swiss/docs/quickstartsense/MessungAktiviert.png)  
-3. **Ajuster les paramètres de base :** Sous «Modifier la mesure» sur le côté droit, les paramètres de base de la mesure peuvent être ajustés. En plus des paramètres déjà mentionnés, des offsets peuvent être configurés et un code PIN pour quitter l'écran live peut être défini. Il est également possible de supprimer définitivement la mesure avec toutes ses données de l'appareil.  
+3. **Ajuster les paramètres de base :** Sous «Modifier la mesure» sur le côté droit, les paramètres de base de la mesure peuvent être ajustés. En plus des paramètres déjà mentionnés, des offsets peuvent être configurés et un code PIN pour quitter l'écran live peut être défini. Il est également possible de supprimer définitivement la mesure avec toutes ses données de l'ordinateur.  
 ![Modifier la mesure](https://docs.spl.swiss/docs/quickstartsense/MessungBearbeiten.png)  
 
 
@@ -64,13 +64,13 @@ Après la sauvegarde, la mesure apparaît dans le tableau de bord. Une icône de
 L'offset peut être réglé à l'aide de la fonction «Offset tune» sur le côté droit. Toutes les valeurs mesurées pendant ce processus ne sont pas enregistrées dans la mesure. Nous recommandons de régler l'offset (la différence de niveau entre le point le plus fort et l'emplacement du capteur pendant la mesure) avec un signal de test, par ex. du bruit rose, comme suit :  
 ![Offset tune](https://docs.spl.swiss/docs/quickstartsense/Offsettune.png)  
 
-1. **Émettre du bruit rose :** Utilise un niveau sonore correspondant à celui attendu pendant le concert ou l'événement.  
+1. **Diffuser du bruit rose :** Utilise un niveau sonore correspondant à celui attendu pendant le concert ou l'événement.  
 2. **Réinitialiser la valeur maximale :** Appuie sur le bouton «Réinitialiser max».  
-3. **Parcourir la zone public :** Déplace-toi avec l'appareil et le capteur à travers la zone public.  
+3. **Parcourir la zone du public :** Déplace-toi avec l'ordinateur et le capteur à travers la zone du public.  
 4. **Placer le capteur :** Installe le capteur à la position de mesure prévue.  
 5. **Ajuster l'offset :** Règle la valeur d'offset de sorte que le «Niveau incl. offset» corresponde au «Max LEQ1».  
 6. **Sauvegarder les paramètres :** Sauvegarde les ajustements effectués.  
-La différence de niveau peut également être déterminée à l'aide d'un appareil de mesure portable supplémentaire. Plus d'informations sur l'emplacement du capteur et l'offset : [Recommandation de branche pour la procédure de mesure](https://www.bag.admin.ch/dam/bag/de/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20DE.pdf)  
+La différence de niveau peut également être déterminée à l'aide d'un appareil de mesure portable supplémentaire. Plus d'informations sur l'emplacement du capteur et l'offset : [Recommandation de la branche pour le procédé de mesure](https://www.bag.admin.ch/dam/bag/fr/dokumente/str/schall/emfehlungen_messverfahren.pdf.download.pdf/Branchenempfehlung%20Messverfahren%20FR.pdf)  
 
 
 ## Plugin Leveler pour le processeur audio
@@ -89,7 +89,7 @@ Une bonne position du capteur et des offsets correctement réglés pour les vale
 3. **Définir les valeurs limites :** Entre les limites souhaitées. Le leveler peut simultanément prendre en compte une limite pour les pondérations A, C et Z. Les limites peuvent être ajustées à tout moment, même pendant une mesure en cours.  
 **Les étapes 4 et 5 ne sont nécessaires que pour le mode avec compensation du public.**  
 ![Paramètres du Leveler – étalonnage](https://docs.spl.swiss/docs/quickstartsense/LevelerEinstellungenEinmessvorgang.png)  
-4. **Émettre du bruit rose :** Injecte du bruit rose comme source audio au niveau attendu. Utilise la chaîne de signal effective — si une table de mixage DJ est la source, alimente un générateur de bruit rose via le DJ. Si la limite pendant l'événement est de 96 dB, mesure également à 96 dB.  
+4. **Injecter du bruit rose :** Injecte du bruit rose comme source audio au niveau attendu. Utilise la chaîne de signal effective — si une table de mixage DJ est la source, alimente un générateur de bruit rose via le DJ. Si la limite pendant l'événement est de 96 dB, mesure également à 96 dB.  
 5. **Mesurer le décalage de ligne (Line Offset) :** Appuie sur le bouton «Mesurer le décalage de ligne». Le système détermine pendant 3 secondes le décalage de ligne en mesurant le rapport entre le niveau de ligne et le niveau de pression acoustique. Pendant ce court laps de temps, il ne doit y avoir aucun bruit parasite. La procédure peut être répétée autant de fois que nécessaire. Une fois la mesure effectuée, la valeur de corrélation pour les pondérations A, C et Z doit être aussi proche que possible de 1.000.  
 6. **Sauvegarder :** Confirme les paramètres avec «Sauvegarder».  
 Pendant une mesure en cours, les limites et le décalage de ligne peuvent être ajustés manuellement. L'étalonnage automatique n'est possible que lorsque la mesure est arrêtée. La corrélation indique si le réglage est correct. En l'absence de bruit extérieur, la valeur doit être aussi proche que possible de 1. Lors d'une correction manuelle, une extrême prudence est de mise. Même un léger mauvais réglage peut faire en sorte que le leveler ignore le bruit extérieur ou intervienne trop fortement.  
