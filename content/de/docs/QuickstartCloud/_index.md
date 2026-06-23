@@ -24,8 +24,13 @@ description: >-
 •	**Verbundene SPL Sense Instanzen anzeigen:** Auf der rechten Seite werden verbundene SPL Sense Instanzen angezeigt.<br>
 •	**Frühere Messaufträge und Messungen:** Hier gelangst du zum Archiv deiner Messungen.<br>
 ## Einstellungen
-Über das Zahnradsymbol oben rechts kommst du zu den Einstellungen. Hier kannst du Profileinstellungen anpassen und Organisationen verwalten. Eine Organisation kann deine Firma oder auch ein Event sein. Ein Gefäß, in dem Personen mit verschiedenen Rechten abgebildet werden können.<br>
+Über das Zahnradsymbol oben rechts kommst du zu den Einstellungen. Hier kannst du Profileinstellungen anpassen, deine Rechnungen einsehen und Zahlungsmittel verwalten sowie Organisationen verwalten. Eine Organisation kann deine Firma oder auch ein Event sein. Ein Gefäß, in dem Personen mit verschiedenen Rechten abgebildet werden können.<br>
 ![Einstellungen](Einstellungen.png) <br>
+## Zahlungseinstellungen
+![Zahlungseinstellungen](Zahlungseinstellungen.png) <br>
+1.	**Die gewünschte Abrechnungswährung kann einmalig ausgewählt werden.** Sollte eine Anpassung nötig sein, bitten wir dich um eine E-Mail an info@spltools.ch.<br>
+2.	**Zahlung & Rechnung:** "Abrechnung verwalten" leitet dich zur Verwaltung deiner Rechnungen und Zahlungsmethoden auf die Plattform von Stripe weiter.
+3.	**Aufgelaufene Kosten:** Hier siehst du eine detaillierte Übersicht der aufgelaufenen Kosten von deinen Messaufträgen.
 ## Organisation erstellen
 1.	**Organisation erstellen:** Klicke auf "Organisation erstellen".<br>
 2.	**Angaben:** Entscheide selbst, welche Angaben für dich relevant sind, und setze diese ein.<br>
@@ -36,6 +41,8 @@ Nach der Erstellung bist du automatisch als Mitglied aufgeführt. Deine Rolle is
 5.	**Benutzer bestätigen:** Wenn es die Person (E-Mail-Adresse) gibt, wird sie als «Benutzer gefunden» vorgeschlagen. Bestätige die Person mit «Auswählen».<br>
 6.	**Rolle zuweisen:** Wähle nun, ob die Person «Mitglied» oder «Besitzer» ist. Der Unterschied ist, dass Besitzer zusätzlich die Personen der Organisation verwalten können.<br>
 7.	**Mitglied anpassen:** Wenn du ein Mitglied deiner Organisation entfernen möchtest, wähle es aus und klicke auf «Mitglied entfernen». Ebenso kannst du die Rolle einer Person anpassen.<br>
+8.   **Zahlung & Rechnung:** "Abrechnung verwalten" leitet dich zur Verwaltung deiner Rechnungen und Zahlungsmethoden auf die Plattform von Stripe weiter.
+9.   **Logo:** Hier kannst du ein Logo einfügen, welches für Reporte verwendet wird.
 ## SPL Sense mit der SPL Cloud verbinden
 Jedes SPL Sense kann mit der SPL Cloud verbunden werden, um Daten in Echtzeit einzusehen und zu speichern. In der Kurzanleitung von SPL Sense findest du das Vorgehen.<br>
 1.	**Registrierung bestätigen:** Sobald du im SPL Sense den Verbindungslink angeklickt oder den QR-Code gescannt hast, musst du die Registrierung der SPL Sense Instanz bestätigen.<br>
@@ -56,11 +63,13 @@ Du kannst mit dem «+»-Knopf neben «Messaufträge und Messungen» einen Messau
 ## Messauftrag bearbeiten und Messung hinzufügen
 Durch Anklicken des Stiftes neben dem Messauftrag im Dashboard kannst du die Angaben des Messauftrags anpassen. Ebenfalls kannst du dem Messauftrag Messungen zuweisen.<br>
 ![Messauftrag](Messauftrag.png) <br>
-•	**Messung zuweisen:** Unter «Messungen» «Messungen zuweisen» anklicken. Dann die gewünschte Messung auswählen.<br>
-•	**Messung entfernen:** Wenn du eine Messung entfernen möchtest, kannst du bei der entsprechenden Messung auf «Entfernen» klicken. Nachdem du die Messungen dem Messauftrag zugewiesen hast, siehst du die Messungen auf dem Dashboard im entsprechenden Messauftrag.<br>
+•	**Messung zuweisen:** Unter «Details» «Messungen zuweisen» anklicken. Dann die gewünschte Messung auswählen. Hier kannst du auch Messungen aus deinem Messauftrag entfernen. Nachdem du die Messungen dem Messauftrag zugewiesen hast, siehst du die Messungen auf dem Dashboard im entsprechenden Messauftrag.<br>
 •	**Messauftrag löschen:** Du kannst mit «Messauftrag löschen» einen Messauftrag aus der Cloud entfernen. Dies ist jedoch nur möglich, wenn keine Messungen im Messauftrag vorhanden sind.<br>
+•	**Zahlungsmethode einrichten:** Im Feld Lizenzierung kannst du unter "Zahlungsmethode einrichten" eine Zahlungsmethode hinterlegen, wenn für den Eigentümer des Messauftrags noch keine Zahlungsmethode vorhanden ist.
+•	**Aktiviere PRO:** Wenn du bereits eine Zahlungsmethode für den Eigentümer des Messauftrags hinterlegt hast, kannst du im Feld Lizenzierung die PRO Funktionen aktivieren. Die PRO Version wird für alle Messungen im Messauftrag aktiviert. Was in unseren PRO Funktionen enthalten ist, findest du unter https://spltools.ch/products/.
 ## Übersicht Messung
 Wenn du eine Messung im Dashboard anklickst, siehst du eine mit dem SPL Sense vergleichbare Übersicht. Weitere Infos dazu findest du in der Kurzanleitung vom SPL Sense.<br>
+Falls eine Messung im SPL Sense nicht abgeschlossen wurde, hast du die Möglichkeit mit "Messung abschliessen" die Messung in der Cloud trotzdem zu archivieren. Abgeschlossene Messungen können hier auch gelöscht werden.<br>
 ![Messung läuft](MessungLaeuft.png) <br>
 ## Zugriff
 Es ist möglich, anderen bei SPL Cloud registrierten Personen oder nicht registrierten Personen Zugriff auf die Messungen und Messaufträge zu geben.<br>
