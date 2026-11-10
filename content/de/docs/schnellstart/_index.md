@@ -20,10 +20,12 @@ Diese Anleitung führt dich Schritt für Schritt zu deiner ersten Messung. Du br
 
 ## 1. SPL Sense installieren
 
-1. Lade SPL Sense für dein Betriebssystem herunter und installiere es.
-2. Starte SPL Sense. Beim ersten Start erscheint ein Hinweis. Lies ihn und klicke auf **Akzeptieren und Fortfahren**.
-
-{{< offen >}}Download-Adresse für SPL Sense (Windows / macOS) ergänzen.{{< /offen >}}
+1. Lade SPL Sense für dein Betriebssystem herunter:
+   - [Windows](https://r.spl.swiss/dl/splsense/win-x64/SPLSenseSetup.exe)
+   - [macOS mit Apple-Chip (M1 und neuer)](https://r.spl.swiss/dl/splsense/osx-arm64/SPLSense-osx-arm64-Setup.pkg)
+   - [macOS mit Intel-Prozessor](https://r.spl.swiss/dl/splsense/osx-x64/SPLSense-osx-x64-Setup.pkg)
+2. Öffne die heruntergeladene Datei und folge dem Installationsprogramm.
+3. Starte SPL Sense. Beim ersten Start erscheint ein Hinweis. Lies ihn und klicke auf **Akzeptieren und Fortfahren**.
 
 SPL Sense aktualisiert sich selbst: Ist eine neue Version verfügbar, erscheint ein Hinweis.
 
@@ -107,11 +109,10 @@ teilen. Die Grundfunktionen sind kostenlos.
 
 **Konto erstellen** (einmalig):
 
-1. Öffne [spl.cloud](https://spl.cloud) im Browser.
-2. Klicke auf **Sign up now**, gib deine E-Mail-Adresse ein und bestätige sie mit dem Code, den du per E-Mail erhältst.
-3. Ergänze Passwort und Namen und schliesse mit **Create** ab.
-
-{{< offen >}}Beschriftungen der Anmeldeseite (Azure B2C) prüfen: Sind sie auf Deutsch übersetzt?{{< /offen >}}
+1. Öffne [spl.cloud](https://spl.cloud) im Browser. Die Anmeldeseite ist immer auf Englisch.
+2. Klicke auf **Sign up now**, gib deine E-Mail-Adresse ein und klicke auf **Send verification code**.
+3. Gib den Code ein, den du per E-Mail erhältst, und bestätige.
+4. Ergänze Passwort und Namen und schliesse mit **Create** ab.
 
 **SPL Sense anmelden** (einmal pro Computer):
 

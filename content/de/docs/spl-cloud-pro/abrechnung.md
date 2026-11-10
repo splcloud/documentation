@@ -17,30 +17,17 @@ description: >-
 
 ## Preise
 
-| | pro Messtag |
-|---|---|
-| Tag 1 bis 6 | CHF / EUR 5 |
-| ab Tag 7 | CHF / EUR 2 |
-| Obergrenze pro Messung und Messjahr | CHF / EUR 120 |
+Die aktuellen Preise findest du auf [spl.swiss](https://spl.swiss/products/cloudpro). Das Modell:
 
-Die Obergrenze ist nach 51 Messtagen erreicht (6 × 5 + 45 × 2 = 120). Alle Preise verstehen sich exklusive
-Mehrwertsteuer. Die aktuell gültigen Preise zeigt die SPL Cloud beim Aktivieren an.
+- Die ersten Messtage einer Messung kosten mehr, ab dem 7. Messtag gilt ein tieferer Tagespreis.
+- Pro Messung und **Messjahr** gibt es eine Obergrenze. Ist sie erreicht, läuft Pro bis zum Ende des Messjahres kostenlos
+  weiter.
+- Das Messjahr dauert 365 Tage ab dem ersten Messtag der Messung (hat sie noch keine Daten: ab dem Tag der Aktivierung).
+  Danach beginnt ein neues Messjahr, und die Zählung startet wieder beim ersten Tag.
+- Die Preise verstehen sich exklusive Mehrwertsteuer.
 
-Das **Messjahr** dauert 365 Tage ab dem ersten Messtag der Messung (hat sie noch keine Daten: ab dem Tag der
-Aktivierung). Danach beginnt ein neues Messjahr,
-und die Zählung startet wieder bei Tag 1.
-
+Vor jeder Aktivierung zeigt die SPL Cloud den Preis und, falls schon Daten aufgezeichnet sind, den genauen Betrag an.
 Ändern sich die Preise, gilt für eine bereits aktivierte Messung weiterhin der Preis zum Zeitpunkt ihrer Aktivierung.
-
-{{< offen >}}Preise vor der Veröffentlichung bestätigen.{{< /offen >}}
-
-### Beispiele
-
-| Einsatz | Rechnung | Kosten |
-|---|---|---|
-| Festival-Wochenende, 3 Messpunkte mit je 2 Messtagen | 3 × (2 × 5) | 30 |
-| Eine Messung mit 20 Messtagen im Jahr | 6 × 5 + 14 × 2 | 58 |
-| Dauermessung, ganzes Jahr | Obergrenze nach 51 Messtagen | 120 |
 
 ## Voraussetzung: Zahlungsmethode
 
@@ -53,12 +40,12 @@ Rechnungsadresse wird für die Mehrwertsteuer benötigt.
 | eine Organisation | Seite der Organisation › **Abrechnung** | ein Besitzer der Organisation |
 
 1. Wähle die **Abrechnungswährung**: CHF oder EUR. Sie lässt sich danach nicht mehr ändern.
-2. Klicke auf **Zahlung einrichten**. Die Zahlung läuft über den Zahlungsdienst Stripe; dort gibst du Karte und
-   Rechnungsadresse ein.
+2. Klicke auf **Zahlung einrichten**. Die Zahlung läuft über den Zahlungsdienst Stripe; dort wählst du das
+   Zahlungsmittel und gibst die Rechnungsadresse ein. Welche Zahlungsmittel möglich sind, siehst du dort.
 3. Zurück in der SPL Cloud steht **Zahlungsmethode und Rechnungsadresse gespeichert**.
 
-Bezahlt wird per Kredit- oder Debitkarte. Mit **Abrechnung verwalten** öffnest du bei Stripe deine Rechnungen und
-änderst die Karte. Bei einer Organisation bestimmt die **Rechnungssprache** in den Organisationsdetails die Sprache
+Die Rechnung lautet auf die Person bzw. die Organisation, der das Zahlungsmittel gehört. Mit **Abrechnung verwalten**
+öffnest du bei Stripe deine Rechnungen und änderst das Zahlungsmittel. Bei einer Organisation bestimmt die **Rechnungssprache** in den Organisationsdetails die Sprache
 der Rechnungen.
 
 ## Pro aktivieren
@@ -104,12 +91,10 @@ Aus- und Einschalten spart also nichts.
 ## Abrechnung
 
 Abgerechnet wird einmal pro Monat, am letzten Tag des Kalendermonats, für alle Messtage, die in diesem Monat
-aufgelaufen sind. Die Karte wird automatisch belastet.
+aufgelaufen sind. Das hinterlegte Zahlungsmittel wird automatisch belastet.
 
-Kann die Karte nicht belastet werden, versucht es der Zahlungsdienst mehrmals. Schlägt die Zahlung endgültig fehl,
+Schlägt die Belastung fehl, versucht es der Zahlungsdienst mehrmals. Schlägt die Zahlung endgültig fehl,
 werden die Pro-Funktionen der betroffenen Messungen gesperrt, bis die Zahlung geklärt ist.
-
-{{< offen >}}Wie erhält man die Rechnung (E-Mail von Stripe, an welche Adresse)?{{< /offen >}}
 
 ## Kosten im Blick
 

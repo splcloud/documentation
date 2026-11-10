@@ -17,9 +17,17 @@ description: >-
 Die Funktionen sind überall gleich. Einzige Ausnahme: Den Sensor [kalibrieren]({{< relref "sensor-und-kalibrierung" >}})
 kannst du nur in der Desktop-App.
 
-Den Betrieb unter Linux beschreibt der Teil [Für Entwickler]({{< relref "/docs/entwickler/betrieb" >}}).
+## Installation
 
-{{< offen >}}Download-Adresse und Installationsschritte pro Plattform ergänzen.{{< /offen >}}
+| Plattform | Download |
+|---|---|
+| Windows (64 Bit) | [SPLSenseSetup.exe](https://r.spl.swiss/dl/splsense/win-x64/SPLSenseSetup.exe) |
+| macOS mit Apple-Chip (M1 und neuer) | [SPLSense-osx-arm64-Setup.pkg](https://r.spl.swiss/dl/splsense/osx-arm64/SPLSense-osx-arm64-Setup.pkg) |
+| macOS mit Intel-Prozessor | [SPLSense-osx-x64-Setup.pkg](https://r.spl.swiss/dl/splsense/osx-x64/SPLSense-osx-x64-Setup.pkg) |
+| Linux | siehe [Betrieb ohne Bildschirm]({{< relref "/docs/entwickler/betrieb" >}}) |
+
+Öffne die heruntergeladene Datei und folge dem Installationsprogramm. Welchen Mac du hast, siehst du unter
+Apple-Menü › **Über diesen Mac**: «Chip» bedeutet Apple-Chip, «Prozessor» Intel.
 
 ## Erster Start
 
