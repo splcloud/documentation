@@ -91,7 +91,9 @@ WantedBy=multi-user.target
 
 Speichern und schliessen: <kbd>Ctrl</kbd>+<kbd>X</kbd>, dann mit <kbd>Y</kbd> bestätigen.
 
-Die Zeile `ASPNETCORE_URLS` legt den Port fest, unter dem SPL Sense im Browser erreichbar ist, hier `8080`.
+Die Zeile `ASPNETCORE_URLS` legt fest, unter welcher Adresse und welchem Port SPL Sense erreichbar ist: hier `8080`
+auf allen Netzwerkschnittstellen. Einen anderen Port trägst du hier ein. Fehlt die Zeile, ist SPL Sense nur auf dem
+Raspberry Pi selbst erreichbar (`http://localhost:5000`).
 
 ## 5. Dienst aktivieren und starten
 

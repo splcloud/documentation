@@ -13,7 +13,7 @@ description: >-
 | Einstellung | Werte |
 |---|---|
 | **Modus** | **Aus** (Standard), **Nur externer Leveler**, **Vollzugriff** |
-| **Port** | Standard `8084` (Windows, macOS). Unter Linux läuft die API auf dem Port der Weboberfläche, nach der [Installationsanleitung]({{< relref "/docs/linux/installation" >}}) `8080`. |
+| **Port** | Standard `8084` (Windows, macOS). Unter Linux läuft die API auf demselben Port wie die Weboberfläche, nach der [Installationsanleitung]({{< relref "/docs/linux/installation" >}}) `8080`; die Port-Einstellung hat dort keine Wirkung. |
 | **API Key** | mindestens 6 Zeichen; bei der Installation zufällig gesetzt |
 
 Die Seite zeigt die Basis-URL, die Swagger UI und die OpenAPI-Spezifikation:
