@@ -47,14 +47,13 @@ Eine **Messung** steht für einen Messpunkt, zum Beispiel «Hauptbühne Openair 
    - **Name**: So erscheint die Messung in der Übersicht und im Bericht.
    - **Werteprofil**: Legt fest, welche Werte berechnet werden und welche Grenzwerte gelten. Für Veranstaltungen in der
      Schweiz wählst du die Vorlage, die zu deiner gemeldeten Kategorie passt: **VNISSG 93dBA**, **VNISSG 96dBA** oder
-     **VNISSG 100dBA**. In Deutschland: **DIN 15905-5**.
+     **VNISSG 100dBA**. In Deutschland wählst du **DIN 15905-5**.
+     Was die Vorlagen enthalten: [V-NISSG und DIN 15905-5]({{< relref "/docs/grundlagen/vorschriften" >}}).
    - **Tagesgrenze**: Wann ein Messtag endet. Wähle eine Zeit etwa zwei Stunden nach dem Ende der Veranstaltung,
      spätestens 06:00 Uhr. So landet eine Party, die bis 03:00 Uhr dauert, in *einem* Tag und nicht in zwei.
    - **Cloud Synchronisierung**: Lass das vorerst aus. Du schaltest es ein, sobald SPL Sense mit der Cloud verbunden ist
      (Schritt 8).
 3. Klicke auf **Messung erstellen**.
-
-{{< bild id="sense-messung-erstellen" >}}
 
 ## 4. Messung aktivieren
 
@@ -65,7 +64,7 @@ Es kann immer nur eine Messung aktiv sein. Die aktive Messung ist die, in die SP
 ## 5. Offset einstellen
 
 Der Grenzwert gilt am **lautesten Ort im Publikum**, auf Ohrenhöhe. Dort kannst du den Sensor aber meistens nicht
-hinstellen. Deshalb misst du an einem anderen Ort, oft beim Mischpult, und gleichst den Unterschied mit dem **Offset** aus.
+hinstellen. Deshalb misst du an einem anderen Ort und gleichst den Unterschied mit dem **Offset** aus.
 Hintergründe findest du unter [Messpunkt und Offset]({{< relref "/docs/grundlagen/messpunkt-und-offset" >}}).
 
 So stellst du den Offset ein (die Messung muss aktiv und gestoppt sein, der Sensor angeschlossen):
@@ -75,11 +74,9 @@ So stellst du den Offset ein (die Messung muss aktiv und gestoppt sein, der Sens
 3. Klicke auf **Max zurücksetzen**.
 4. Geh mit dem Sensor durch den Publikumsbereich, auch nach vorne und an die Seiten.
    SPL Sense merkt sich den höchsten Wert.
-5. Stell den Sensor an seinen Messort, zum Beispiel ans Mischpult.
+5. Stell den Sensor an seinen Messort, zum Beispiel ans Mischpult oder nahe an einen Lautsprecher.
 6. Stell den **Offset** so ein, dass **Level inkl. offset** gleich hoch ist wie der gespeicherte **Max**-Wert.
 7. Klicke auf **Speichern**.
-
-{{< bild id="sense-offsets-tunen" >}}
 
 Während des Offset-Tunens wird nichts aufgezeichnet. Kennst du den Offset schon, zum Beispiel von einem Handmessgerät,
 trägst du ihn direkt unter **Messung bearbeiten** ein.
@@ -143,14 +140,12 @@ Für jeden Messtag gibt es einen Tagesbericht als PDF.
 3. Klicke beim Tag auf den Button für den Tagesbericht
    (SPL Sense: **Tagesbericht des selektierten Tages öffnen**, SPL Cloud: **Selektierten Tagesbericht öffnen**).
 
-{{< bild id="cloud-tagesbericht" >}}
-
 Daneben kannst du die Werte des Tages als CSV-Datei exportieren, zum Beispiel für Excel.
 
 ## Und jetzt?
 
 - Ist die Veranstaltung ganz vorbei, schliesse die Messung ab: Menü **Messung** › **Messung abschliessen**.
   Danach lässt sie sich nicht mehr verändern. Bei Bedarf öffnest du sie wieder.
-- [Messpunkt und Offset]({{< relref "/docs/grundlagen/messpunkt-und-offset" >}}): richtig messen nach V-NISSG
+- [Messpunkt und Offset]({{< relref "/docs/grundlagen/messpunkt-und-offset" >}}): richtig messen nach V-NISSG und DIN 15905-5
 - [Lesezugriff]({{< relref "/docs/spl-cloud/lesezugriff" >}}): Veranstalter oder Behörde Einblick geben
 - [Leveler]({{< relref "/docs/spl-sense/leveler" >}}): Pegel automatisch unter dem Grenzwert halten

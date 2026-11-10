@@ -26,8 +26,8 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 
 **A-, C- und Z-Bewertung**
 : Filter, die das Frequenzspektrum gewichten. **A** entspricht ungefähr dem menschlichen Gehör bei leisen Pegeln und
-  dämpft Bässe stark; alle Grenzwerte der V-NISSG gelten in dB(A). **C** dämpft Bässe nur wenig und zeigt, wie viel
-  Tieftonenergie im Spiel ist (z.B. DIN 15905-5). **Z** ist ungefiltert (*zero*). SPL Sense misst immer alle drei.
+  dämpft Bässe stark; die Mittelungspegel der V-NISSG und der DIN 15905-5 gelten in dB(A). **C** dämpft Bässe nur wenig
+  und zeigt, wie viel Tieftonenergie im Spiel ist; die DIN 15905-5 begrenzt damit den Spitzenpegel. **Z** ist ungefiltert (*zero*). SPL Sense misst immer alle drei.
 
 **Abweichung, Überschreitung**
 : Ein Wert hat eine Schwelle des Werteprofils überschritten. Die Messdetails zeigen sie pro Tag.
@@ -40,8 +40,14 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 : Bereich, in dem sich das Publikum vom Lärm erholen kann. Die V-NISSG verlangt sie bei 100 dB(A) über mehr als drei
   Stunden.
 
-**Ermittlungsort**
-: Der lauteste Ort im Publikumsbereich, auf Ohrenhöhe. Dort gilt der Grenzwert.
+**Beurteilungspegel (Lr)**
+: Begriff der DIN 15905-5: der LAeq über 30 Minuten am Immissionsort, in Blöcken ab jeder vollen und halben Stunde.
+  Zulässig sind 99 dB.
+
+**Ermittlungsort, Immissionsort**
+: Der lauteste Ort im Publikumsbereich, auf Ohrenhöhe. Dort gilt der Grenzwert. Die DIN 15905-5 nennt ihn
+  *maßgeblichen Immissionsort* und unterscheidet einen für LAeq (bestimmt von Mittel- und Hochton) und einen für den
+  Spitzenpegel (bestimmt von den Bässen).
   Siehe [Messpunkt und Offset]({{< relref "messpunkt-und-offset" >}}).
 
 **Fast (F)**
@@ -63,6 +69,10 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 **Korrelation**
 : Beim Leveler das Verhältnis zwischen gemessenem und erwartetem Pegel. 1.000 heisst: Es ist nur die Beschallung zu hören.
   Werte über 1 zeigen zusätzlichen Lärm, zum Beispiel vom Publikum.
+
+**LCpeak**
+: C-bewerteter Spitzenschalldruckpegel, der höchste Momentanwert. Die DIN 15905-5 begrenzt ihn auf 135 dB.
+  Nicht zu verwechseln mit LCFmax, der mit Zeitbewertung Fast (125 ms) gemittelt ist.
 
 **Leq (Mittelungspegel)**
 : Der energetische Mittelwert des Pegels über eine bestimmte Zeit. Ein kurzer, sehr lauter Moment hebt den Leq deutlich
@@ -87,8 +97,9 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 **Messauftrag (Job)**
 : Fasst in der SPL Cloud mehrere Messungen zusammen, zum Beispiel alle Messpunkte eines Festivals.
 
-**Messort**
-: Wo der Sensor tatsächlich steht, oft beim Mischpult.
+**Messort, Ersatzimmissionsort**
+: Wo der Sensor tatsächlich steht, zum Beispiel beim Mischpult oder nahe am Lautsprecher. Die DIN 15905-5 nennt ihn
+  *Ersatzimmissionsort*.
 
 **Messtag**
 : Ein Tag einer Messung, begrenzt durch die Tagesgrenze. Auch die Pro-Abrechnung zählt Messtage.
@@ -96,9 +107,9 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 **Messung**
 : Ein Messpunkt mit seinen Einstellungen und allen aufgezeichneten Daten. Kann über viele Tage laufen.
 
-**Offset**
-: Korrekturwert in dB, der zu jedem gemessenen Wert addiert wird, um vom Messort auf den Ermittlungsort zu schliessen.
-  Je ein Wert für A, C und Z.
+**Offset, Korrekturwert**
+: Wert in dB, der zu jedem gemessenen Wert addiert wird, um vom Messort auf den Ermittlungsort zu schliessen.
+  Je ein Wert für A, C und Z. In der DIN 15905-5 heissen sie Korrekturwerte KA und KC.
 
 **Operator-PIN**
 : Schützt SPL Sense vor Änderungen. Die Live Ansicht bleibt ohne PIN zugänglich.
@@ -109,6 +120,10 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 
 **Rosa Rauschen (Pink Noise)**
 : Testsignal mit gleicher Energie pro Oktave. Wird zum Bestimmen von Offset und Line Offset verwendet.
+
+**Störschall**
+: Begriff der DIN 15905-5: alles, was nicht von der Beschallung kommt, zum Beispiel Publikum oder Pyrotechnik.
+  Siehe [Publikumslärm]({{< relref "publikumslaerm" >}}).
 
 **Signatur**
 : Jedes Intervall wird digital signiert. So lässt sich nachweisen, dass die Daten nicht verändert wurden.
