@@ -13,8 +13,8 @@ Hier unterscheiden sich die Regelwerke:
 - **V-NISSG (Schweiz):** Es zählt **alles, was am Ermittlungsort zu hören ist**: Beschallung, Bühne, Instrumente
   und auch das Publikum.
 - **DIN 15905-5 (Deutschland):** Beurteilt wird nur der Schall der Beschallungsanlage. Publikum und andere
-  Quellen sind *Störschall* und sollen das Ergebnis nicht verfälschen. Deshalb empfiehlt die Norm einen Messort nahe
-  am Lautsprecher, wo das Publikum kaum ins Gewicht fällt.
+  Quellen sind *Störschall* und sollen das Ergebnis nicht verfälschen. Deshalb empfiehlt die Norm einen Messort, an dem
+  das Publikum kaum ins Gewicht fällt.
 
 Die Aufzeichnung von SPL Sense enthält in beiden Fällen den gesamten Pegel am Sensor. Keine Einstellung rechnet das
 Publikum aus den gespeicherten Messwerten heraus. Wie stark es mitzählt, bestimmst du also mit der Wahl des Messorts.
@@ -24,8 +24,8 @@ Pegel beitragen: Applaus, Sprechchöre, Mitsingen, laute Bühnenmonitore oder Re
 
 ## Was du tun kannst
 
-- **Messort gut wählen:** Steht der Sensor über Kopfhöhe oder nahe am Lautsprecher und im Direktschall der
-  Beschallung, wirkt sich das Publikum weniger aus. Siehe [Messpunkt und Offset]({{< relref "messpunkt-und-offset" >}}).
+- **Messort gut wählen:** Steht der Sensor über Kopfhöhe, abseits der Menge und im Direktschall der Beschallung,
+  wirkt sich das Publikum weniger aus. Halte dabei genug Abstand zu den Lautsprechern. Siehe [Messpunkt und Offset]({{< relref "messpunkt-und-offset" >}}).
 - **Bühnenpegel tief halten:** Laute Monitore und Backline erhöhen den Pegel, ohne dass die Technik am Mischpult viel
   dagegen tun kann.
 - **Kommentare setzen:** Halte besondere Momente in der Messung fest, zum Beispiel «Zugabe, Publikum singt mit».

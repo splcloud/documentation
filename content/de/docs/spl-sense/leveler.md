@@ -21,7 +21,11 @@ Der Leveler gehört zur Messung: Jede Messung hat ihre eigenen Leveler-Einstellu
 | **SPL Tools L1 (Netzwerk)** | Der L1 steht woanders, zum Beispiel im Rack bei der Endstufe, und ist per Ethernet oder WLAN erreichbar. |
 | **Externer Audioprozessor (SenseAPI)** | Ein Audioprozessor mit SPL-Sense-Plugin fragt SPL Sense über die [API]({{< relref "/docs/entwickler/sense-api" >}}) ab. |
 
-{{< offen >}}Für welche Audioprozessoren gibt es ein Plugin, und wo kann man es herunterladen?{{< /offen >}}
+Für Q-SYS gibt es das Plugin **SPL Sense Leveler**: [herunterladen](https://r.spl.swiss/sense/leveler/plugin).
+Füge es in dein Q-SYS-Design ein und trage im Plugin die IP-Adresse des Computers mit SPL Sense, den Port und den
+API Key ein. In SPL Sense muss unter **Einstellungen** › **API** der Modus **Nur externer Leveler** oder
+**Vollzugriff** eingeschaltet sein, siehe [SPL Sense API]({{< relref "/docs/entwickler/sense-api" >}}). Stimmen die
+Angaben, zeigt das Plugin den Zustand und die Messwerte von SPL Sense an.
 
 ### SPL Tools L1 über USB
 

@@ -74,7 +74,7 @@ So stellst du den Offset ein (die Messung muss aktiv und gestoppt sein, der Sens
 3. Klicke auf **Max zurücksetzen**.
 4. Geh mit dem Sensor durch den Publikumsbereich, auch nach vorne und an die Seiten.
    SPL Sense merkt sich den höchsten Wert.
-5. Stell den Sensor an seinen Messort, zum Beispiel ans Mischpult oder nahe an einen Lautsprecher.
+5. Stell den Sensor an seinen Messort, zum Beispiel ans Mischpult.
 6. Stell den **Offset** so ein, dass **Level inkl. offset** gleich hoch ist wie der gespeicherte **Max**-Wert.
 7. Klicke auf **Speichern**.
 

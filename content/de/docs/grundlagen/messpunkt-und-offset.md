@@ -26,16 +26,18 @@ angezeigten und gespeicherten Werte dem Pegel am lautesten Ort im Publikum entsp
   einschalten.
 - Während der Veranstaltung nicht mehr verschieben. Musst du ihn doch verschieben, bestimme den Offset neu.
 
-Zwei Varianten sind üblich:
+### Abstand zu den Lautsprechern
 
-| | beim Mischpult | nahe am Lautsprecher |
-|---|---|---|
-| Offset | meist positiv (der lauteste Ort im Publikum ist lauter) | negativ |
-| Vorteil | Technik sieht den Sensor, kurze Wege | Publikum und andere Störquellen fallen kaum ins Gewicht |
-| Empfohlen von | Praxis in der Schweiz | DIN 15905-5 |
+Der Sensor braucht einen **Mindestabstand** zur Beschallung:
 
-Am Lautsprecher darf der Pegel nicht so hoch werden, dass der Sensor übersteuert. SPL Sense zeigt das als **Clip**
-in den Messdaten an.
+- Erst in einigem Abstand mischen sich Hoch-, Mittel- und Tieftöner zum Klang, den auch das Publikum hört. Zu nahe an
+  einem Lautsprecher misst der Sensor vor allem einen einzelnen Lautsprecher, und der Offset stimmt bei Musik nicht mehr.
+- Der Sensor hat einen maximalen Pegel. Zu nahe an einem Lautsprecher können Spitzen ihn übersteuern. SPL Sense zeigt
+  das als **Clip** in den Messdaten an.
+
+Innerhalb dieser Grenzen gilt: Je weiter der Messort vom Publikum entfernt und je besser er im Direktschall der
+Beschallung liegt, desto weniger stören Publikum und andere Quellen. Liegt der Messort näher an der Beschallung als der
+lauteste Ort im Publikum, wird der Offset negativ. Die DIN 15905-5 empfiehlt einen solchen Messort.
 
 ## Den Offset bestimmen
 

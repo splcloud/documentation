@@ -91,7 +91,8 @@ Eine abgeschlossene Messung öffnest du im Menü mit **Messung wieder öffnen** 
 ## Löschen
 
 Eine offene Messung löschst du unter **Messung bearbeiten** › **Messung löschen**, eine abgeschlossene im Menü
-**Messung**. Gelöscht wird nur auf diesem Computer; was in der SPL Cloud ist, bleibt dort.
+**Messung**. Gelöscht wird nur auf diesem Computer; was in der SPL Cloud ist, bleibt dort. Wie du die Messung auch in
+der Cloud löschst, steht unter [Messungen in der Cloud]({{< relref "/docs/spl-cloud/messungen#löschen" >}}).
 
 ## Import und Export
 

@@ -3,15 +3,119 @@ title: Preise und Abrechnung
 linkTitle: Preise und Abrechnung
 weight: 10
 description: >-
-  Was Pro kostet, wie aktiviert und abgerechnet wird.
+  Was Pro kostet, wie du es aktivierst und wie abgerechnet wird.
 ---
 
-{{< offen >}}Kapitel noch nicht ausgeschrieben. Geplanter Inhalt:{{< /offen >}}
+## Das Prinzip
 
-- Prinzip: Pro pro Messung, Basis bleibt kostenlos
-- Preis pro Messtag: erste 6 Tage, ab Tag 7, Jahresdeckel; was ein Messtag ist (mehr als 1 Stunde Daten)
-- Beispiele: Festival-Wochenende, mehrwöchiger Einsatz, Dauermessung
-- Gratis-Teststunde, rückwirkende Abrechnung, Deaktivieren und Reaktivieren
-- Pro auf einer Messung oder einem ganzen Messauftrag
-- Zahlungsmethode und Rechnungsadresse (persönlich oder Organisation), Währung CHF/EUR, Rechnungssprache, MWST
-- Monatliche Abrechnung, Lizenzdetails, aufgelaufene Kosten, fehlgeschlagene Zahlungen
+- Pro gilt **pro Messung**. Du aktivierst es für eine einzelne Messung oder für alle Messungen eines Messauftrags.
+- Bezahlt wird **pro Messtag**. Ein Messtag zählt, wenn die Messung an diesem Tag mehr als eine Stunde Daten
+  aufgezeichnet hat. Massgebend ist die Tagesgrenze der Messung.
+- Pro Messung und Jahr gibt es eine **Obergrenze**. Ist sie erreicht, läuft Pro bis zum Ende des Messjahres kostenlos
+  weiter.
+- Kein Abo, keine Grundgebühr. Eine Messung ohne Daten kostet nichts.
+
+## Preise
+
+| | pro Messtag |
+|---|---|
+| Tag 1 bis 6 | CHF / EUR 5 |
+| ab Tag 7 | CHF / EUR 2 |
+| Obergrenze pro Messung und Messjahr | CHF / EUR 120 |
+
+Die Obergrenze ist nach 51 Messtagen erreicht (6 × 5 + 45 × 2 = 120). Alle Preise verstehen sich exklusive
+Mehrwertsteuer. Die aktuell gültigen Preise zeigt die SPL Cloud beim Aktivieren an.
+
+Das **Messjahr** dauert 365 Tage ab dem ersten Messtag der Messung (hat sie noch keine Daten: ab dem Tag der
+Aktivierung). Danach beginnt ein neues Messjahr,
+und die Zählung startet wieder bei Tag 1.
+
+Ändern sich die Preise, gilt für eine bereits aktivierte Messung weiterhin der Preis zum Zeitpunkt ihrer Aktivierung.
+
+{{< offen >}}Preise vor der Veröffentlichung bestätigen.{{< /offen >}}
+
+### Beispiele
+
+| Einsatz | Rechnung | Kosten |
+|---|---|---|
+| Festival-Wochenende, 3 Messpunkte mit je 2 Messtagen | 3 × (2 × 5) | 30 |
+| Eine Messung mit 20 Messtagen im Jahr | 6 × 5 + 14 × 2 | 58 |
+| Dauermessung, ganzes Jahr | Obergrenze nach 51 Messtagen | 120 |
+
+## Voraussetzung: Zahlungsmethode
+
+Bevor du Pro aktivierst, braucht der Besitzer der Messung eine Zahlungsmethode und eine Rechnungsadresse. Die
+Rechnungsadresse wird für die Mehrwertsteuer benötigt.
+
+| Besitzer der Messung | Wo einrichten | Wer |
+|---|---|---|
+| du persönlich | **Einstellungen** › **Zahlung** | du |
+| eine Organisation | Seite der Organisation › **Abrechnung** | ein Besitzer der Organisation |
+
+1. Wähle die **Abrechnungswährung**: CHF oder EUR. Sie lässt sich danach nicht mehr ändern.
+2. Klicke auf **Zahlung einrichten**. Die Zahlung läuft über den Zahlungsdienst Stripe; dort gibst du Karte und
+   Rechnungsadresse ein.
+3. Zurück in der SPL Cloud steht **Zahlungsmethode und Rechnungsadresse gespeichert**.
+
+Bezahlt wird per Kredit- oder Debitkarte. Mit **Abrechnung verwalten** öffnest du bei Stripe deine Rechnungen und
+änderst die Karte. Bei einer Organisation bestimmt die **Rechnungssprache** in den Organisationsdetails die Sprache
+der Rechnungen.
+
+## Pro aktivieren
+
+### Für eine Messung
+
+1. Öffne die Messung. Seitlich steht **Hol dir Pro!** mit den enthaltenen Funktionen und dem Preis.
+2. Klicke auf **Pro aktivieren** und bestätige.
+
+### Für einen Messauftrag
+
+Auf der Seite des Messauftrags **Pro für den Job aktivieren**. Damit sind alle Messungen des Messauftrags Pro, auch
+solche, die später dazukommen. Jede Messung wird trotzdem einzeln nach ihren Messtagen abgerechnet, mit ihrer eigenen
+Obergrenze.
+
+### Gratis-Teststunde
+
+Beim ersten Aktivieren einer Messung hast du eine Stunde Zeit zum Ausprobieren. Deaktivierst du Pro innerhalb dieser
+Stunde, kostet es nichts, auch nicht für bereits aufgezeichnete Tage. Solange die Teststunde läuft, zeigt die Messung
+**Gratis-Teststunde läuft**.
+
+### Rückwirkende Abrechnung
+
+Pro wird ab dem **ersten Messtag der Messung** abgerechnet, nicht ab dem Zeitpunkt der Aktivierung. Aktivierst du Pro
+für eine Messung, die schon seit drei Tagen läuft, zählen diese drei Tage mit. Die SPL Cloud zeigt dir vor der
+Aktivierung den genauen Betrag.
+
+## Pro deaktivieren
+
+Mit **Pro deaktivieren** auf der Messung bzw. **Pro für den Job deaktivieren** auf dem Messauftrag:
+
+- Die Pro-Funktionen sind sofort gesperrt. Teilbare Links funktionieren nicht mehr, Alarme werden nicht mehr ausgewertet.
+- Bereits aufgelaufene Beträge werden mit der nächsten Rechnung abgerechnet. Es gibt keine Rückerstattung.
+- Weitere Messtage werden nicht mehr gezählt. Die Messung zeichnet normal weiter auf.
+- Messungen, die direkt aktiviert wurden, bleiben aktiv, wenn du Pro für den Messauftrag deaktivierst.
+
+### Wieder aktivieren
+
+Aktivierst du Pro später wieder, läuft das Messjahr nahtlos weiter, als hätte es keine Pause gegeben. **Messtage aus der
+Pause werden rückwirkend mitgezählt**. Eine Teststunde gibt es nicht mehr; die Abrechnung beginnt sofort. Wiederholtes
+Aus- und Einschalten spart also nichts.
+
+## Abrechnung
+
+Abgerechnet wird einmal pro Monat, am letzten Tag des Kalendermonats, für alle Messtage, die in diesem Monat
+aufgelaufen sind. Die Karte wird automatisch belastet.
+
+Kann die Karte nicht belastet werden, versucht es der Zahlungsdienst mehrmals. Schlägt die Zahlung endgültig fehl,
+werden die Pro-Funktionen der betroffenen Messungen gesperrt, bis die Zahlung geklärt ist.
+
+{{< offen >}}Wie erhält man die Rechnung (E-Mail von Stripe, an welche Adresse)?{{< /offen >}}
+
+## Kosten im Blick
+
+- **Aufgelaufene Kosten** in den Zahlungseinstellungen: alle Pro-Messungen mit ihren Kosten im laufenden Jahr.
+- **Lizenzdetails** einer Messung (über **Details anzeigen** bei Pro): Messjahr, abrechenbare Messtage, Stand bis zur
+  Obergrenze, bereits abgerechnete Beträge, Verrechnungsverlauf und alle Messtage mit ihrer aufgezeichneten Zeit.
+- **Lizenzdetails** eines Messauftrags: Summe über alle seine Messungen.
+
+Kosten sehen nur Personen, die den Messauftrag bzw. die Messung verwalten dürfen.

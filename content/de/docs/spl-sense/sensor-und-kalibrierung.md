@@ -49,14 +49,15 @@ Mit einer Berechtigung als Kalibrierer kannst du Sensoren selbst kalibrieren. Du
 - SPL Sense für Windows oder macOS (im Webserver-Betrieb nicht verfügbar)
 - Internet
 - einen Schallkalibrator mit 94 oder 114 dB
-- ein Konto als Kalibrierer und ein Kalibrierungszertifikat deiner Organisation
+- eine Bestätigung als Kalibrierer von SPL Tools (siehe unten)
 
 ### Als Kalibrierer registrieren
 
-Auf der Sensorseite **Kalibrieren** › **Anmelden zum Kalibrieren** › **Als Kalibrierer registrieren**. Du beschreibst
-deine Kalibrierausrüstung; SPL Tools prüft die Anfrage und informiert dich per E-Mail.
+1. Auf der Sensorseite **Kalibrieren** › **Als Kalibrierer registrieren**.
+2. Fülle das Online-Formular aus. Darin beschreibst du auch deine Kalibrierausrüstung.
+3. SPL Tools prüft deine Anfrage und bestätigt sie per E-Mail.
 
-{{< offen >}}Ablauf der Registrierung als Kalibrierer und Bezug des Kalibrierungszertifikats beschreiben.{{< /offen >}}
+Sobald die Bestätigung da ist, kannst du kalibrieren.
 
 ### Ablauf
 

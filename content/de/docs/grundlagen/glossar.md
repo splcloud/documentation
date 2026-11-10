@@ -98,8 +98,7 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
 : Fasst in der SPL Cloud mehrere Messungen zusammen, zum Beispiel alle Messpunkte eines Festivals.
 
 **Messort, Ersatzimmissionsort**
-: Wo der Sensor tatsächlich steht, zum Beispiel beim Mischpult oder nahe am Lautsprecher. Die DIN 15905-5 nennt ihn
-  *Ersatzimmissionsort*.
+: Wo der Sensor tatsächlich steht, zum Beispiel beim Mischpult. Die DIN 15905-5 nennt ihn *Ersatzimmissionsort*.
 
 **Messtag**
 : Ein Tag einer Messung, begrenzt durch die Tagesgrenze. Auch die Pro-Abrechnung zählt Messtage.
