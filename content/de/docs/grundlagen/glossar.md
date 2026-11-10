@@ -71,8 +71,10 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
   Werte über 1 zeigen zusätzlichen Lärm, zum Beispiel vom Publikum.
 
 **LCpeak**
-: C-bewerteter Spitzenschalldruckpegel, der höchste Momentanwert. Die DIN 15905-5 begrenzt ihn auf 135 dB.
-  Nicht zu verwechseln mit LCFmax, der mit Zeitbewertung Fast (125 ms) gemittelt ist.
+: C-bewerteter Spitzenschalldruckpegel: der höchste Momentanwert des Schalldrucks, ohne Zeitbewertung. Die
+  DIN 15905-5 begrenzt ihn auf 135 dB. Nicht dasselbe wie LCFmax: Dort wird der Pegel zuerst mit der Zeitbewertung
+  Fast (125 ms) geglättet, und davon wird der höchste Wert genommen. Kurze Spitzen fallen dadurch tiefer aus; LCpeak
+  liegt deshalb immer gleich hoch oder höher als LCFmax.
 
 **Leq (Mittelungspegel)**
 : Der energetische Mittelwert des Pegels über eine bestimmte Zeit. Ein kurzer, sehr lauter Moment hebt den Leq deutlich

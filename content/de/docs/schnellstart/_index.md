@@ -31,7 +31,7 @@ SPL Sense aktualisiert sich selbst: Ist eine neue Version verfügbar, erscheint 
 
 ## 2. Sensor anschliessen
 
-Schliesse den Sensor per USB an. Oben rechts in der Statusleiste siehst du, ob SPL Sense den Sensor erkennt.
+Schliesse den Sensor per USB an. Pro Computer darf nur ein Sensor angeschlossen sein. Oben rechts in der Statusleiste siehst du, ob SPL Sense den Sensor erkennt.
 
 Zeigt die Statusleiste **Kein Sensor verbunden**, steck das Kabel aus und wieder ein.
 
