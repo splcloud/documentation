@@ -26,7 +26,7 @@ capteur n'est possible que dans l'application de bureau.
 | macOS avec processeur Intel | [SPLSense-osx-x64-Setup.pkg](https://r.spl.swiss/dl/splsense/osx-x64/SPLSense-osx-x64-Setup.pkg) |
 | Linux (Raspberry Pi) | voir [SPL Sense pour Linux]({{< relref "/docs/linux" >}}) |
 
-Ouvrez le fichier téléchargé et suivez le programme d'installation. Pour savoir quel Mac vous avez : menu Apple ›
+Ouvre le fichier téléchargé et suis le programme d'installation. Pour savoir quel Mac tu as : menu Apple ›
 **À propos de ce Mac** : « Puce » signifie puce Apple, « Processeur » signifie Intel.
 
 ## Premier démarrage
@@ -37,13 +37,13 @@ poursuivre, **Fermer l'application** ferme SPL Sense.
 ## Mises à jour
 
 SPL Sense vérifie lui-même si une nouvelle version est disponible. Si c'est le cas, l'avis **Mise à jour disponible**
-apparaît dans la vue d'ensemble avec les boutons **Mise à jour** et **Rappelez-moi plus tard**.
+apparaît dans le tableau de bord avec les boutons **Mise à jour** et **Rappelez-moi plus tard**.
 
-1. Arrêtez une mesure en cours. Aucune mise à jour ne peut être installée pendant une mesure.
-2. Cliquez sur **Mise à jour**, puis sur **Mise à jour et redémarrage**.
+1. Arrête une mesure en cours. Aucune mise à jour ne peut être installée pendant une mesure.
+2. Clique sur **Mise à jour**, puis sur **Mise à jour et redémarrage**.
 3. SPL Sense télécharge la nouvelle version, l'installe et redémarre.
 
-Si SPL Sense ne redémarre pas tout seul après la mise à jour, lancez-le manuellement. Après un redémarrage, aucune mesure
+Si SPL Sense ne redémarre pas tout seul après la mise à jour, lance-le manuellement. Après un redémarrage, aucune mesure
 n'est active, sauf si le [mode autonome]({{< relref "autonomous-mode" >}}) est activé.
 
 La version actuelle et l'historique des versions se trouvent sous **Paramètres** › **A propos de**.
@@ -58,6 +58,6 @@ SPL Sense enregistre toutes les mesures localement sur l'ordinateur :
 | macOS | `~/Library/SPLSense` |
 | Linux | `~/.SPLSense` |
 
-Sauvegardez régulièrement ce dossier ou activez la [transmission au Cloud]({{< relref "settings#spl-cloud" >}}) pour vos
+Sauvegarde régulièrement ce dossier ou active la [liaison cloud]({{< relref "settings#spl-cloud" >}}) pour tes
 mesures. Les mesures individuelles se sauvegardent sous forme de fichier `.splsense`, voir
 [Importation et exportation]({{< relref "measurements#importation-et-exportation" >}}).

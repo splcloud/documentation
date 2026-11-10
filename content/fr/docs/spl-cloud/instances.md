@@ -21,8 +21,8 @@ un PC de bureau ou un Raspberry Pi. L'enregistrement d'une instance est décrit 
 
 ## Où trouver les instances
 
-- **Barre d'état** : « SPL Sense 3 sur 5 en ligne », avec la liste de toutes vos instances
-- **Vue d'ensemble**, tout en bas : toutes les instances avec état, activité, propriétaire et niveau actuel
+- **Barre d'état** : « SPL Sense 3 sur 5 en ligne », avec la liste de toutes tes instances
+- **Tableau de bord**, tout en bas : toutes les instances avec état, activité, propriétaire et niveau actuel
 - **Paramètres** › **Instances personnelles** et sur la page de chaque organisation
 
 Chaque instance affiche l'icône de son système d'exploitation (Apple, Windows, Linux).
@@ -43,18 +43,18 @@ propriétaire peuvent transmettre des données dans une mesure existante.
 
 ## Changer de propriétaire
 
-Vous changez le propriétaire d'une instance en l'enregistrant à nouveau :
+Tu changes le propriétaire d'une instance en l'enregistrant à nouveau :
 
 1. Dans SPL Sense : **Paramètres** › **Cloud** › désenregistrer l'instance.
 2. **Instance de registre** et, lors de la confirmation dans le cloud, choisir le nouveau **Propriétaire**.
-3. Dans SPL Sense, activer la **transmission au Cloud** pour les nouvelles mesures.
+3. Dans SPL Sense, activer la **liaison cloud** pour les nouvelles mesures.
 
 L'instance conserve son ID. Les mesures déjà transmises gardent leur propriétaire précédent. L'instance ne peut ensuite
-plus y transmettre de données, car seules les instances du propriétaire d'une mesure peuvent y transmettre. Changez donc
+plus y transmettre de données, car seules les instances du propriétaire d'une mesure peuvent y transmettre. Change donc
 de propriétaire entre deux interventions, pas pendant une mesure en cours.
 
 ## Supprimer une instance
 
 Sur la page de l'instance, dans le menu : **Désenregistrement de l'instance**. L'instance ne peut ensuite plus rien
-transmettre. Les mesures dans le cloud sont conservées. Désenregistrez aussi l'instance dans SPL Sense pour qu'elle
+transmettre. Les mesures dans le cloud sont conservées. Désenregistre aussi l'instance dans SPL Sense pour qu'elle
 cesse d'essayer de se connecter.

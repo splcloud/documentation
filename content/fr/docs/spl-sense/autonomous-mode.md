@@ -13,8 +13,8 @@ redémarrage, le système continue de mesurer sans intervention.
 ## Configuration
 
 1. **Paramètres** › **Mode autonome**.
-2. Réglez l'exécution automatique d'une mesure sur **Mise en marche**.
-3. Choisissez la **Mesure**. Seules les mesures ouvertes sont proposées.
+2. Règle l'exécution automatique d'une mesure sur **Mise en marche**.
+3. Choisis la **Mesure**. Seules les mesures ouvertes sont proposées.
 4. **Sauvegarder**. Si SPL Sense est arrêté et qu'un capteur est connecté, SPL Sense propose de démarrer la mesure
    immédiatement.
 
@@ -22,7 +22,7 @@ redémarrage, le système continue de mesurer sans intervention.
 
 - **Au démarrage de SPL Sense :** la mesure choisie est activée et démarrée. Si aucun capteur n'est connecté, la mesure
   est **Interrompu** et commence à enregistrer dès que le capteur est là.
-- **Arrêt :** vous pouvez arrêter la mesure à tout moment. Elle reste alors arrêtée jusqu'au prochain démarrage de
+- **Arrêt :** tu peux arrêter la mesure à tout moment. Elle reste alors arrêtée jusqu'au prochain démarrage de
   SPL Sense.
 - **Clôture :** lorsque la mesure est clôturée, le mode autonome se désactive.
 - **Calibration :** lors du démarrage automatique, SPL Sense ne demande rien, même si la calibration a expiré. Les
@@ -30,9 +30,9 @@ redémarrage, le système continue de mesurer sans intervention.
 
 ## Pour une exploitation sans surveillance
 
-Combinez le mode autonome avec :
+Combine le mode autonome avec :
 
 - un [code PIN opérateur]({{< relref "settings#code-pin-opérateur" >}}), pour que personne ne modifie les paramètres
-- l'[écran en direct en mode kiosque]({{< relref "live-screen#plein-écran-et-kiosque" >}}) comme affichage
-- la [transmission au cloud]({{< relref "settings#spl-cloud" >}}), pour voir la mesure à distance, et avec Pro des
+- la [vue live en mode kiosque]({{< relref "live-screen#plein-écran-et-kiosque" >}}) comme affichage
+- la [liaison cloud]({{< relref "settings#spl-cloud" >}}), pour voir la mesure à distance, et avec Pro des
   [alarmes]({{< relref "/docs/spl-cloud-pro/alarms" >}}) en cas de panne de la mesure

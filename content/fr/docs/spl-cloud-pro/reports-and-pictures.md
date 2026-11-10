@@ -3,7 +3,7 @@ title: Rapports et photos
 linkTitle: Rapports et photos
 weight: 30
 description: >-
-  Rapport journalier avec écarts, photos de la mesure et rapport photos.
+  Rapport journalier avec dépassements, photos de la mesure et rapport photos.
 ---
 
 ## Rapports journaliers
@@ -12,10 +12,10 @@ Dans SPL Sense, le rapport journalier en PDF est gratuit. Dans SPL Cloud, il est
 variantes :
 
 - **Rapport journalier** : bouton **PDF** du jour sélectionné. Sans Pro, le bouton est grisé.
-- **Rapport journalier avec écarts** : menu **Mesures** › **Ouvrir le rapport journalier avec écarts**. Contient en plus
-  les dépassements des seuils du profil de valeur pour le jour sélectionné.
+- **Rapport journalier avec dépassements** : menu **Mesures** › **Ouvrir le rapport journalier avec dépassements**. Contient en plus
+  les dépassements des seuils du profil de valeurs pour le jour sélectionné.
 
-Si la mesure appartient à une organisation avec un logo, le logo apparaît dans le rapport. Vous définissez le logo sur
+Si la mesure appartient à une organisation avec un logo, le logo apparaît dans le rapport. Tu définis le logo sur
 la page de l'[organisation]({{< relref "/docs/spl-cloud/organizations#logo" >}}).
 
 ## Photos de la mesure
@@ -23,13 +23,13 @@ la page de l'[organisation]({{< relref "/docs/spl-cloud/organizations#logo" >}})
 Les photos documentent la manière dont la mesure a été réalisée : le lieu de mesure, le capteur, la sonorisation, le
 protocole du réglage.
 
-1. Ouvrez la mesure. Sur le côté se trouve la zone **Photos**.
-2. Faites glisser des photos dans la zone ou cliquez sur **+**.
-3. Un clic sur une photo l'ouvre en grand. Vous y ajoutez une **Légende** et **Sauvegarder**.
+1. Ouvre la mesure. Sur le côté se trouve la zone **Photos**.
+2. Faites glisser des photos dans la zone ou clique sur **+**.
+3. Un clic sur une photo l'ouvre en grand. Tu y ajoutes une **Légende** et **Sauvegarder**.
 
 | | |
 |---|---|
-| Formats | JPEG et PNG. Partagez ou exportez d'abord en JPEG les photos HEIC d'un iPhone. |
+| Formats | JPEG et PNG. Partage ou exporte d'abord en JPEG les photos HEIC d'un iPhone. |
 | Taille | 20 Mo maximum par photo |
 | Nombre | 100 photos maximum par mesure |
 
@@ -40,4 +40,4 @@ photo ?**) retire la photo définitivement.
 ## Rapport photos
 
 Menu **Mesures** › **Ouvrir le rapport photos** crée un PDF avec toutes les photos de la mesure et leurs légendes. Avec
-le rapport journalier, vous obtenez une documentation complète de la mesure.
+le rapport journalier, tu obtiens une documentation complète de la mesure.

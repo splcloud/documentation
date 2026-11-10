@@ -8,7 +8,7 @@ description: >-
 
 ## Pourquoi des organisations ?
 
-Tout dans SPL Cloud a un **propriétaire** : les mesures, les événements et les instances SPL Sense. Le propriétaire est
+Tout dans SPL Cloud a un **propriétaire** : les mesures, les missions de mesure et les instances SPL Sense. Le propriétaire est
 soit une personne, soit une **organisation**.
 
 Une organisation est un groupe de personnes qui accèdent ensemble aux mesures : une entreprise, un club, un festival ou
@@ -16,15 +16,15 @@ une autorité. Tous les membres voient les mesures de l'organisation, et lorsque
 données restent à l'organisation.
 
 Une personne peut être membre de plusieurs organisations, par exemple en tant que technicien indépendant pour plusieurs
-entreprises. Lors de la création d'un événement ou de l'enregistrement d'une instance, vous choisissez à qui elle doit
+entreprises. Lors de la création d'une mission de mesure ou de l'enregistrement d'une instance, tu choisis à qui elle doit
 appartenir.
 
 ## Rôles
 
 | | Propriétaire | Membre |
 |---|---|---|
-| Voir les mesures et événements de l'organisation | ✓ | ✓ |
-| Créer des événements, attribuer des mesures | ✓ | ✓ |
+| Voir les mesures et missions de mesure de l'organisation | ✓ | ✓ |
+| Créer des missions de mesure, attribuer des mesures | ✓ | ✓ |
 | Enregistrer des instances SPL Sense pour l'organisation | ✓ | ✓ |
 | Accorder un accès en lecture | ✓ | ✓ |
 | Commander à distance les instances de l'organisation (avec Pro) | ✓ | ✓ |
@@ -40,17 +40,17 @@ pas membres mais reçoivent un [accès en lecture]({{< relref "read-access" >}})
 ## Créer une organisation
 
 1. **Paramètres** › **Créer une organisation**.
-2. Saisissez le **Nom**, l'adresse et l'**Adresse e-mail**. La **Langue de facturation** détermine la langue des
+2. Saisis le **Nom**, l'adresse et l'**Adresse e-mail**. La **Langue de facturation** détermine la langue des
    factures et des pages de paiement.
-3. **Sauvegarder**. Vous êtes maintenant propriétaire de l'organisation.
+3. **Sauvegarder**. Tu es maintenant propriétaire de l'organisation.
 
 ## Gérer les membres
 
 Sur la page de l'organisation :
 
 1. **Ajouter un membre**.
-2. Recherchez la personne par son adresse e-mail. Elle doit déjà avoir un compte SPL Cloud.
-3. Choisissez le **Rôle** : **Propriétaire** ou **Membre**. **Sauvegarder**.
+2. Recherche la personne par son adresse e-mail. Elle doit déjà avoir un compte SPL Cloud.
+3. Choisis le **Rôle** : **Propriétaire** ou **Membre**. **Sauvegarder**.
 
 Un clic sur un membre l'ouvre : changer le rôle ou **Supprimer le membre**.
 
@@ -66,9 +66,9 @@ et les mesures lui appartiennent personnellement. Elle donne à l'organisateur u
 
 **Entreprise technique :** l'entreprise a une organisation ; tous les ordinateurs portables et Raspberry Pi sont
 enregistrés comme instances de l'organisation. Tous les employés sont membres et voient toutes les mesures. Lors d'un
-festival, un événement regroupe les points de mesure ; l'autorité reçoit un accès en lecture à tout l'événement,
+festival, une mission de mesure regroupe les points de mesure ; l'autorité reçoit un accès en lecture à toute la mission de mesure,
 l'exploitant d'une scène à sa mesure.
 
 **Appareils loués :** si un appareil est loué et doit appartenir à l'entreprise locataire pendant la durée de la
-location, changez le propriétaire de l'instance, voir
+location, change le propriétaire de l'instance, voir
 [Instances SPL Sense]({{< relref "instances#changer-de-propriétaire" >}}).

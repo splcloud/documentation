@@ -25,43 +25,37 @@ Les exports CSV et les rapports PDF utilisent encore en partie une ancienne nota
 ## Termes de A à Z
 
 **Accès en lecture**
-: Permet à une autre personne de consulter une mesure ou un événement dans SPL Cloud sans rien modifier.
+: Permet à une autre personne de consulter une mesure ou une mission de mesure dans SPL Cloud sans rien modifier.
 
 **Bruit du public, bruit parasite**
 : La DIN 15905-5 appelle *Störschall* (bruit parasite) tout ce qui ne provient pas de la sonorisation, par exemple le
   public ou la pyrotechnie. Voir [Bruit du public]({{< relref "audience-noise" >}}).
 
 **Bruit rose (pink noise)**
-: Signal de test à énergie égale par octave. Sert à déterminer le décalage et le line offset.
+: Signal de test à énergie égale par octave. Sert à déterminer l'offset et le décalage de ligne.
 
 **Calibration**
 : Ajustement du capteur par rapport à un niveau sonore de référence. Elle a une date d'expiration.
   Voir [Capteur et calibration]({{< relref "/docs/spl-sense/sensor-and-calibration" >}}).
 
 **Code PIN opérateur**
-: Protège SPL Sense contre les modifications. L'écran en direct reste accessible sans code PIN.
+: Protège SPL Sense contre les modifications. La vue live reste accessible sans code PIN.
 
 **Corrélation**
 : Pour le leveler, le rapport entre le niveau mesuré et le niveau attendu. 1.000 signifie : seule la sonorisation est
   audible. Des valeurs supérieures à 1 indiquent un bruit supplémentaire, par exemple du public.
 
-**Décalage (offset), valeur de correction**
-: Valeur en dB ajoutée à chaque valeur mesurée pour déduire le niveau à l'endroit le plus bruyant à partir du point de
-  mesure. Une valeur pour A, C et Z. Dans la DIN 15905-5, ce sont les valeurs de correction KA et KC.
+**Décalage de ligne**
+: Pour le leveler avec compensation du public : la différence entre le niveau au capteur et le niveau du signal à la
+  sortie du processeur audio, mesurée sans public.
 
-**Écart, dépassement**
-: Une valeur a dépassé un seuil du profil de valeur. Les détails de la mesure les affichent par jour.
-
-**Écran en direct**
-: Grand affichage des valeurs actuelles, par exemple pour le DJ ou les techniciens. Disposition librement configurable.
+**Dépassement**
+: Une valeur a dépassé un seuil du profil de valeurs. Les détails de la mesure les affichent par jour.
 
 **Endroit le plus bruyant, lieu d'immission**
 : L'endroit le plus bruyant de la zone du public, à hauteur d'oreille. C'est là que la limite s'applique. La DIN 15905-5
   l'appelle *maßgeblicher Immissionsort* et en distingue un pour LAeq (déterminé par les médiums et les aigus) et un pour
-  le niveau de crête (déterminé par les basses). Voir [Point de mesure et décalage]({{< relref "measuring-point-and-offset" >}}).
-
-**Événement (job)**
-: Regroupe plusieurs mesures dans SPL Cloud, par exemple tous les points de mesure d'un festival.
+  le niveau de crête (déterminé par les basses). Voir [Point de mesure et offset]({{< relref "measuring-point-and-offset" >}}).
 
 **Fast (F)**
 : Pondération temporelle de 125 ms. Réagit rapidement aux crêtes. Base du LAFmax.
@@ -99,23 +93,26 @@ Les exports CSV et les rapports PDF utilisent encore en partie une ancienne nota
 **Limite journalière**
 : Heure à laquelle un jour de mesure se termine : entre minuit et 06:00.
 
-**Line offset**
-: Pour le leveler avec compensation du public : la différence entre le niveau au capteur et le niveau du signal à la
-  sortie du processeur audio, mesurée sans public.
-
 **Mesure**
 : Un point de mesure avec ses paramètres et toutes les données enregistrées. Peut durer plusieurs jours.
+
+**Mission de mesure**
+: Regroupe plusieurs mesures dans SPL Cloud, par exemple tous les points de mesure d'un festival.
 
 **Niveau d'évaluation (Lr)**
 : Terme de la DIN 15905-5 : le LAeq sur 30 minutes au lieu d'immission, par blocs commençant à chaque heure pile et
   demi-heure. La valeur admissible est de 99 dB.
 
+**Offset, valeur de correction**
+: Valeur en dB ajoutée à chaque valeur mesurée pour déduire le niveau à l'endroit le plus bruyant à partir du point de
+  mesure. Une valeur pour A, C et Z. Dans la DIN 15905-5, ce sont les valeurs de correction KA et KC.
+
 **Organisation**
-: Une entreprise, un établissement ou un festival dans SPL Cloud. Elle possède des mesures, des événements et des
+: Une entreprise, un établissement ou un festival dans SPL Cloud. Elle possède des mesures, des missions de mesure et des
   instances ; plusieurs personnes y travaillent ensemble.
 
 **Plage horaire exclue**
-: Une période qui ne compte pas pour les maxima, l'évaluation et les écarts, par exemple le réglage du système. Les
+: Une période qui ne compte pas pour les maxima, l'évaluation et les dépassements, par exemple le réglage du système. Les
   données sont conservées et affichées en grisé.
 
 **Point de mesure, lieu d'immission de substitution**
@@ -128,10 +125,10 @@ Les exports CSV et les rapports PDF utilisent encore en partie une ancienne nota
   **C** n'atténue que peu les basses et montre la part d'énergie dans les basses fréquences ; la DIN 15905-5 l'utilise
   pour limiter le niveau de crête. **Z** n'est pas filtré (*zero*). SPL Sense mesure toujours les trois.
 
-**Profil de valeur**
+**Profil de valeurs**
 : Définit quelles valeurs une mesure calcule (p. ex. LAeq 60′, LAFmax 1′) et quels seuils s'appliquent. Chaque valeur a
   jusqu'à trois niveaux : **Notification**, **Avertissement** et **Limite**.
-  Voir [Profils de valeur]({{< relref "/docs/spl-sense/value-profiles" >}}).
+  Voir [Profils de valeurs]({{< relref "/docs/spl-sense/value-profiles" >}}).
 
 **Réduction de gain (GR)**
 : De combien de dB le [leveler]({{< relref "/docs/spl-sense/leveler" >}}) réduit actuellement le volume. Toujours 0 ou
@@ -143,6 +140,9 @@ Les exports CSV et les rapports PDF utilisent encore en partie une ancienne nota
 **Spectre, bande de tiers d'octave**
 : Le niveau réparti par fréquences, en tiers d'octave. Visible dans les détails de l'intervalle et sur l'écran en
   direct.
+
+**Vue live**
+: Grand affichage des valeurs actuelles, par exemple pour le DJ ou les techniciens. Disposition librement configurable.
 
 **Zone de compensation**
 : Zone où le public peut se reposer du bruit (*Ausgleichszone*). L'O-LRNIS l'exige pour les manifestations avec un

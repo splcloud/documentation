@@ -3,10 +3,10 @@ title: Accès en lecture
 linkTitle: Accès en lecture
 weight: 60
 description: >-
-  Donner gratuitement à d'autres personnes un aperçu des mesures et des événements.
+  Donner gratuitement à d'autres personnes un aperçu des mesures et des missions de mesure.
 ---
 
-Avec un accès en lecture, une autre personne voit une mesure ou tout un événement sans pouvoir rien modifier. C'est
+Avec un accès en lecture, une autre personne voit une mesure ou toute une mission de mesure sans pouvoir rien modifier. C'est
 typique pour les organisateurs, les exploitants ou les autorités.
 
 Il en existe deux sortes :
@@ -21,12 +21,12 @@ Cette page décrit l'accès en lecture gratuit.
 
 ## Accorder un accès en lecture
 
-1. Ouvrez la mesure ou l'événement.
-2. Menu **Mesures** ou **Événement** › **Gérer l'accès en lecture**.
+1. Ouvre la mesure ou la mission de mesure.
+2. Menu **Mesures** ou **Mission de mesure** › **Gérer l'accès en lecture**.
 3. **Ajouter l'accès en lecture**.
-4. Recherchez la personne par son adresse e-mail. Elle doit avoir un compte SPL Cloud ; sinon, demandez-lui d'en créer
+4. Recherche la personne par son adresse e-mail. Elle doit avoir un compte SPL Cloud ; sinon, demande-lui d'en créer
    un.
-5. **Sélectionner le champ d'application** : uniquement cette mesure ou tout l'événement. L'accès à l'événement
+5. **Sélectionner le champ d'application** : uniquement cette mesure ou toute la mission de mesure. L'accès à la mission de mesure
    s'applique aussi aux mesures ajoutées plus tard.
 6. **Sauvegarder**.
 
@@ -38,6 +38,6 @@ l'organisation à qui elle appartient.
 
 ## Ce que voient les lecteurs
 
-Les personnes avec accès en lecture trouvent la mesure dans leur vue d'ensemble. Elles voient toutes les données, les
+Les personnes avec accès en lecture trouvent la mesure dans leur tableau de bord. Elles voient toutes les données, les
 jours, les événements et les photos et peuvent télécharger les exports CSV, avec Pro aussi les rapports journaliers.
 Elles ne peuvent rien modifier, ni transmettre l'accès, ni clôturer ou supprimer la mesure.

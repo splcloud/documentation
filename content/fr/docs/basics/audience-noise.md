@@ -23,14 +23,14 @@ Pour la plupart des manifestations, le public a peu d'influence sur le niveau ho
 l'O-LRNIS). Ponctuellement, il peut toutefois contribuer nettement au niveau : applaudissements, chants de supporters,
 public qui chante, retours de scène forts ou pluie sur un toit de tente.
 
-## Ce que vous pouvez faire
+## Ce que tu peux faire
 
 - **Bien choisir le point de mesure :** si le capteur est au-dessus de la hauteur des têtes, à l'écart de la foule et
-  dans le son direct de la sonorisation, le public a moins d'effet. Gardez une distance suffisante par rapport aux
-  haut-parleurs. Voir [Point de mesure et décalage]({{< relref "measuring-point-and-offset" >}}).
+  dans le son direct de la sonorisation, le public a moins d'effet. Garde une distance suffisante par rapport aux
+  haut-parleurs. Voir [Point de mesure et offset]({{< relref "measuring-point-and-offset" >}}).
 - **Garder un niveau de scène bas :** des retours et un backline forts augmentent le niveau sans que la régie puisse y
   faire grand-chose.
-- **Ajouter des commentaires :** consignez les moments particuliers dans la mesure, par exemple « Rappel, le public
+- **Ajouter des commentaires :** consigne les moments particuliers dans la mesure, par exemple « Rappel, le public
   chante ». Les commentaires apparaissent dans le graphique journalier et aident plus tard à expliquer les pics.
 
 ## Leveler avec compensation du public
@@ -39,10 +39,10 @@ Le [leveler]({{< relref "/docs/spl-sense/leveler" >}}) baisse automatiquement la
 élevé. Sans autre information, il le ferait aussi lorsque le public est bruyant, rendant la musique inutilement plus
 faible alors que la sonorisation n'y est pour rien.
 
-En mode **Leveler avec compensation de la panique et de l'audience**, SPL Sense compare le niveau mesuré avec le signal
+En mode **Leveler avec fonction panique et compensation du public**, SPL Sense compare le niveau mesuré avec le signal
 que le processeur audio émet. S'il est plus fort que ce que la sonorisation seule peut expliquer (corrélation supérieure
 à 1), le leveler ne tient compte que de la part de la sonorisation. La mesure elle-même continue d'enregistrer le niveau
 complet.
 
-Pour cela, le leveler a besoin d'un **line offset** mesuré avec précision. La procédure est décrite sous
+Pour cela, le leveler a besoin d'un **décalage de ligne** mesuré avec précision. La procédure est décrite sous
 [Leveler]({{< relref "/docs/spl-sense/leveler" >}}).

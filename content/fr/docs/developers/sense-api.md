@@ -12,7 +12,7 @@ description: >-
 
 | Paramètre | Valeurs |
 |---|---|
-| **Mode** | **Arrêt** (par défaut), **Leveler externe uniquement**, **Contrôle total** |
+| **Mode** | **Arrêt** (par défaut), **Leveler externe uniquement**, **Accès complet** |
 | **Port** | Par défaut `8084` (Windows, macOS). Sous Linux, l'API tourne sur le même port que l'interface web, `8080` selon le [guide d'installation]({{< relref "/docs/linux/installation" >}}) ; le paramètre de port n'y a pas d'effet. |
 | **Clé API** | au moins 6 caractères ; définie aléatoirement à l'installation |
 
@@ -24,7 +24,7 @@ La page affiche l'URL de base, la Swagger UI et la spécification OpenAPI :
 | Swagger UI | `/swagger` |
 | OpenAPI | `/swagger/current/swagger.json` |
 
-L'API écoute sur toutes les interfaces réseau, sans chiffrement (HTTP). Ne l'utilisez que dans des réseaux de confiance.
+L'API écoute sur toutes les interfaces réseau, sans chiffrement (HTTP). Ne l'utilise que dans des réseaux de confiance.
 
 Les connexions à un SPL Tools L1 ne sont pas concernées par ce paramètre.
 
@@ -41,11 +41,11 @@ n'est pas autorisé dans le mode choisi : `403`.
 
 ## Endpoints
 
-| Méthode et chemin | But | Leveler externe uniquement | Contrôle total |
+| Méthode et chemin | But | Leveler externe uniquement | Accès complet |
 |---|---|---|---|
 | `GET /api/state` | État : appareil de mesure, capteur actif (numéro de série, firmware, calibration, filtre de protection contre les intempéries), mesure actuelle | ✓ | ✓ |
 | `GET /api/live` | dernière valeur en direct : LAeq/LCeq/LZeq 1 s, MaxF A/C/Z, clip, low, intégrations, spectre | ✓ | ✓ |
-| `GET /api/measurements` | toutes les mesures avec profil de valeur, décalages et paramètres du leveler | ✓ | ✓ |
+| `GET /api/measurements` | toutes les mesures avec profil de valeurs, offsets et paramètres du leveler | ✓ | ✓ |
 | `POST /api/leveler` | interface de leveler pour processeurs audio | ✓ | ✓ |
 | `POST /api/control` | activer, démarrer, arrêter une mesure, bypass du leveler | | ✓ |
 | `POST /api/leveler/settings` | définir le mode et les limites du leveler d'une mesure | | ✓ |
@@ -82,7 +82,7 @@ via l'API ne demande rien en cas de calibration expirée. Les événements de la
 ```
 
 `mode` : `0` arrêt, `10` leveler simple, `20` avec fonction panique, `30` avec fonction panique et compensation du
-public. Limites 40–140 dB ou `null` (pondération non régulée). Les line offsets restent inchangés. Impossible pour les
+public. Limites 40–140 dB ou `null` (pondération non régulée). Les décalages de ligne restent inchangés. Impossible pour les
 mesures clôturées (`409`).
 
 ## Interface de leveler : `POST /api/leveler`

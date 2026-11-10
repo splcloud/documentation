@@ -9,7 +9,7 @@ description: >-
 ## Automatiquement
 
 Sous Linux, SPL Sense se met à jour lui-même comme sur les autres plateformes : lorsqu'une nouvelle version est
-disponible, **Mise à jour disponible** apparaît dans la vue d'ensemble. Arrêtez la mesure et cliquez sur **Mise à jour**
+disponible, **Mise à jour disponible** apparaît dans le tableau de bord. Arrête la mesure et clique sur **Mise à jour**
 puis **Mise à jour et redémarrage**. Voir
 [Installation et mises à jour]({{< relref "/docs/spl-sense/installation-and-updates#mises-à-jour" >}}).
 
@@ -17,7 +17,7 @@ Cela fonctionne si SPL Sense est configuré comme décrit dans l'[installation](
 
 ## Manuellement
 
-Si la mise à jour automatique échoue, mettez à jour en ligne de commande. Connectez-vous au Raspberry Pi comme lors de
+Si la mise à jour automatique échoue, mets à jour en ligne de commande. Connecte-toi au Raspberry Pi comme lors de
 l'[installation]({{< relref "installation#se-connecter-par-ssh" >}}). Les
 [remarques générales]({{< relref "installation#remarques-générales" >}}) s'appliquent ici aussi.
 

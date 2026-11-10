@@ -3,14 +3,14 @@ title: Modèles pour l'O-LRNIS et la DIN 15905-5
 linkTitle: Modèles O-LRNIS / DIN
 weight: 5
 description: >-
-  Les profils de valeur et écrans en direct que SPL Sense propose pour la Suisse et l'Allemagne.
+  Les profils de valeurs et écrans en direct que SPL Sense propose pour la Suisse et l'Allemagne.
 ---
 
-SPL Sense propose des profils de valeur et des écrans en direct pour l'O-LRNIS (Suisse, en allemand V-NISSG) et la
-DIN 15905-5 (Allemagne). Les exigences applicables à votre manifestation figurent dans les documents originaux
+SPL Sense propose des profils de valeurs et des vues live pour l'O-LRNIS (Suisse, en allemand V-NISSG) et la
+DIN 15905-5 (Allemagne). Les exigences applicables à ta manifestation figurent dans les documents originaux
 (ci-dessous).
 
-## Profils de valeur
+## Profils de valeurs
 
 | Modèle | Valeurs et seuils (Notification / Avertissement / Limite) |
 |---|---|
@@ -19,8 +19,8 @@ DIN 15905-5 (Allemagne). Les exigences applicables à votre manifestation figure
 | **VNISSG 100dBA** | LAeq 60′ : 98 / 99 / 100 · LAeq 5′ : – / 99 / 100 · LAFmax 1′ : limite 125 |
 | **DIN 15905-5** | LAeq 30′ : – / 95 / 99 · LAeq 5′ : – / 95 / 99 · LCFmax 1′ : limite 135 |
 
-Les valeurs peuvent être adaptées pour chaque mesure, voir [Profils de valeur]({{< relref "/docs/spl-sense/value-profiles" >}}).
-Les écrans en direct correspondants portent les mêmes noms que les modèles, chacun aussi dans une variante avec
+Les valeurs peuvent être adaptées pour chaque mesure, voir [Profils de valeurs]({{< relref "/docs/spl-sense/value-profiles" >}}).
+Les vues live correspondantes portent les mêmes noms que les modèles, chacune aussi dans une variante avec
 affichage du leveler.
 
 SPL Sense calcule les moyennes comme LAeq 30′ ou LAeq 60′ chaque minute, de manière glissante sur les 30 ou 60 dernières
