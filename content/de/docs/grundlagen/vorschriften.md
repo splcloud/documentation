@@ -24,7 +24,8 @@ Die passenden Live-Anzeigen heissen gleich wie die Vorlagen, jeweils auch in ein
 SPL Sense rechnet Mittelwerte wie LAeq 30′ oder LAeq 60′ gleitend über die letzten 30 bzw. 60 Minuten. Der Wert zur
 vollen und zur halben Stunde entspricht dem Mittelwert über die abgelaufene halbe Stunde.
 
-{{< offen >}}SPL Sense misst keinen Spitzenpegel LCpeak, die Vorlage DIN 15905-5 überwacht LCFmax 1′. Formulierung klären.{{< /offen >}}
+Für den Spitzenpegel verwendet die Vorlage **DIN 15905-5** den Wert **LCFmax 1′**: den höchsten C-bewerteten
+Fast-Wert (125 ms) innerhalb einer Minute.
 
 ## Originaldokumente
 
