@@ -13,7 +13,7 @@ description: >-
 | Einstellung | Werte |
 |---|---|
 | **Modus** | **Aus** (Standard), **Nur externer Leveler**, **Vollzugriff** |
-| **Port** | Standard `8084` (Windows, macOS). Im Webserver-Betrieb unter Linux läuft die API auf dem Port der Weboberfläche (`5980`). |
+| **Port** | Standard `8084` (Windows, macOS). Unter Linux läuft die API auf dem Port der Weboberfläche, nach der [Installationsanleitung]({{< relref "/docs/linux/installation" >}}) `8080`. |
 | **API Key** | mindestens 6 Zeichen; bei der Installation zufällig gesetzt |
 
 Die Seite zeigt die Basis-URL, die Swagger UI und die OpenAPI-Spezifikation:
@@ -51,8 +51,6 @@ gewählten Modus nicht erlaubt: `403`.
 | `POST /api/control` | Messung aktivieren, starten, stoppen, Leveler-Bypass | | ✓ |
 | `POST /api/leveler/settings` | Leveler-Modus und Grenzwerte einer Messung setzen | | ✓ |
 
-{{< offen >}}Die Einstellungsseite listet für «Nur externer Leveler» nur Status und Leveler. Der Code erlaubt in diesem
-Modus auch `/live` und `/measurements`. Was ist gewollt?{{< /offen >}}
 
 Die genauen Datenstrukturen stehen in der Swagger UI.
 

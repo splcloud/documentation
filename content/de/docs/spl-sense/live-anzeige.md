@@ -61,4 +61,4 @@ Zeit des letzten Werts und Gerätestatus. Die Widgets füllen den ganzen Bildsch
 Ist eine [Operator-PIN]({{< relref "einstellungen#operator-pin" >}}) gesetzt, fragt SPL Sense sie beim Verlassen
 der Live Ansicht und des Vollbilds ab. So kann am DJ-Pult niemand die Einstellungen ändern.
 
-Für Geräte, die direkt in die Live Ansicht starten sollen, siehe [Betrieb unter Linux]({{< relref "/docs/entwickler/betrieb" >}}).
+Für Geräte, die direkt in die Live Ansicht starten sollen, siehe [SPL Sense für Linux › Betrieb]({{< relref "/docs/linux/betrieb#kiosk-anzeige" >}}).
