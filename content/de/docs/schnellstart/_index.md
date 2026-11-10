@@ -134,14 +134,15 @@ den eigenständigen Messungen.
 
 ## 9. PDF-Bericht herunterladen
 
-Für jeden Messtag gibt es einen Tagesbericht als PDF.
+Für jeden Messtag gibt es in SPL Sense einen Tagesbericht als PDF.
 
-1. Öffne die Messung, in SPL Sense oder in der SPL Cloud.
+1. Öffne die Messung in SPL Sense.
 2. Wähle den gewünschten Tag.
-3. Klicke beim Tag auf den Button für den Tagesbericht
-   (SPL Sense: **Tagesbericht des selektierten Tages öffnen**, SPL Cloud: **Selektierten Tagesbericht öffnen**).
+3. Klicke beim Tag auf **PDF**.
 
-Daneben kannst du die Werte des Tages als CSV-Datei exportieren, zum Beispiel für Excel.
+Mit **CSV** daneben exportierst du die Werte des Tages, zum Beispiel für Excel.
+
+In der SPL Cloud gibt es den Tagesbericht mit [SPL Cloud Pro]({{< relref "/docs/spl-cloud-pro/berichte-und-bilder" >}}).
 
 ## Und jetzt?
 

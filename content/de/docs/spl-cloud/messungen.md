@@ -26,8 +26,8 @@ Zustand), und ob Pro aktiv ist.
 
 | Was | Wo | |
 |---|---|---|
-| Tagesbericht (PDF) | Button beim Tag: **Selektierten Tagesbericht öffnen** | kostenlos |
-| CSV des Tages | Button beim Tag: **Selektierten Tag als CSV exportieren** | kostenlos |
+| CSV des Tages | Button **CSV** beim Tag | kostenlos |
+| Tagesbericht (PDF) | Button **PDF** beim Tag | [Pro]({{< relref "/docs/spl-cloud-pro/berichte-und-bilder" >}}) |
 | CSV aller Tage (ZIP) | Menü **Messung** › **Gesamte Messung als CSV exportieren** | kostenlos |
 | Tagesbericht mit Abweichungen | Menü **Messung** › **Tagesbericht mit Abweichungen öffnen** | [Pro]({{< relref "/docs/spl-cloud-pro/berichte-und-bilder" >}}) |
 | Bilderbericht | Menü **Messung** › **Bilderbericht öffnen** | [Pro]({{< relref "/docs/spl-cloud-pro/berichte-und-bilder" >}}) |

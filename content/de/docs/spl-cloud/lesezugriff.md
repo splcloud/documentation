@@ -39,5 +39,5 @@ Organisation, der sie gehört.
 ## Was Lesende sehen
 
 Personen mit Lesezugriff finden die Messung auf ihrer Übersicht. Sie sehen alle Daten, Tage, Ereignisse und Bilder und
-können Tagesberichte und CSV-Exporte herunterladen. Sie können nichts ändern, keinen Zugriff weitergeben und die
+können CSV-Exporte herunterladen, mit Pro auch Tagesberichte. Sie können nichts ändern, keinen Zugriff weitergeben und die
 Messung nicht abschliessen oder löschen.

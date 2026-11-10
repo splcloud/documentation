@@ -41,7 +41,7 @@ Bildschirmen stehen die Widgets untereinander.
 
 | Gruppe | Widgets |
 |---|---|
-| **Numerisch SPL** | Leq oder MaxF, Gewichtung A, C oder Z, über **Jetzt**, 1 s bis 60 min |
+| **Numerisch SPL** | Leq oder MaxF, Gewichtung A, C oder Z, über **Jetzt** oder 3 s bis 60 min |
 | **Diagramm** | Spektrum, Verlauf heute, Verlauf letzte Stunde |
 | **Leveler** | Gain-Reduktion, Korrelation |
 | **Andere** | letztes Intervall |

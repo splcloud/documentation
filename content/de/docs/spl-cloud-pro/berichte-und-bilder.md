@@ -6,12 +6,13 @@ description: >-
   Tagesbericht mit Abweichungen, Bilder zur Messung und Bilderbericht.
 ---
 
-## Tagesbericht mit Abweichungen
+## Tagesberichte
 
-Der normale Tagesbericht als PDF ist kostenlos. Mit Pro gibt es zusätzlich den **Tagesbericht mit Abweichungen**: Er
-listet alle Überschreitungen der Schwellen des Werteprofils für den gewählten Tag.
+In SPL Sense ist der Tagesbericht als PDF kostenlos. In der SPL Cloud gibt es ihn mit Pro, in zwei Varianten:
 
-Öffne die Messung, wähle den Tag und klicke im Menü **Messung** auf **Tagesbericht mit Abweichungen öffnen**.
+- **Tagesbericht**: Button **PDF** beim gewählten Tag. Ohne Pro ist der Button ausgegraut.
+- **Tagesbericht mit Abweichungen**: Menü **Messung** › **Tagesbericht mit Abweichungen öffnen**. Enthält zusätzlich die
+  Überschreitungen der Schwellen des Werteprofils für den gewählten Tag.
 
 Gehört die Messung einer Organisation mit Logo, erscheint das Logo im Bericht. Das Logo stellst du auf der Seite der
 [Organisation]({{< relref "/docs/spl-cloud/organisationen#logo" >}}) ein.

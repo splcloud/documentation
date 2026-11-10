@@ -15,8 +15,9 @@ Unter **Einstellungen** › **Sensor Informationen** (oder mit einem Klick auf d
 - **Kalibrierung**: Datum, von wem, gültig bis
 - **Wetterschutz**: der eingestellte Kompensationsfilter
 
-Es ist immer genau ein Sensor aktiv. Steckst du während einer Messung einen anderen Sensor ein, misst SPL Sense mit
-diesem weiter; die betroffene Minute wird in den Daten markiert.
+Es ist immer höchstens ein Sensor aktiv. Ein zusätzlich eingesteckter Sensor ändert daran nichts. Fällt der aktive
+Sensor während der Messung aus, misst SPL Sense mit einem anderen eingesteckten Sensor weiter; die betroffene Minute
+wird in den Daten markiert.
 
 ## Kalibrierstatus
 

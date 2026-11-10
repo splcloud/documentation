@@ -37,8 +37,8 @@ ein Update.
   (Deaktivieren, Abschliessen), stehen am Ende des Menüs.
 - **Live-Leiste:** Während der Messung siehst du unter dem Seitenkopf laufend die 1-Sekunden-Werte und, falls aktiv,
   den Leveler.
-- **Tage und Grafik:** Wähle einen Messtag; die Grafik zeigt seinen Verlauf. Beim Tag findest du den Tagesbericht und
-  den CSV-Export.
+- **Tage und Grafik:** Wähle einen Messtag; die Grafik zeigt seinen Verlauf. Beim Tag findest du die Buttons **PDF**
+  (Tagesbericht) und **CSV**.
 - **Darunter:** Überschreitungen, Ereignisse, Sensor und Cloud-Synchronisierung.
 
 Was die Werte und Markierungen bedeuten, steht unter [Messdaten auswerten]({{< relref "messdaten-auswerten" >}}).

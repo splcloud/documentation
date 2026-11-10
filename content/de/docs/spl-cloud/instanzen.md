@@ -47,9 +47,11 @@ Den Besitzer einer Instanz wechselst du, indem du sie neu anmeldest:
 
 1. In SPL Sense: **Einstellungen** › **Cloud** › **Instanz abmelden**.
 2. **Instanz anmelden** und bei der Bestätigung in der Cloud den neuen **Besitzer** wählen.
-3. In SPL Sense die **Cloud Synchronisierung** der gewünschten Messungen wieder einschalten.
+3. In SPL Sense für neue Messungen die **Cloud Synchronisierung** einschalten.
 
-Die Instanz behält ihre ID. Bereits hochgeladene Messungen behalten ihren bisherigen Besitzer.
+Die Instanz behält ihre ID. Bereits hochgeladene Messungen behalten ihren bisherigen Besitzer. In sie kann die Instanz
+danach nicht mehr hochladen, weil nur Instanzen des Besitzers einer Messung in diese hochladen dürfen. Wechsle den
+Besitzer deshalb zwischen zwei Einsätzen, nicht während einer laufenden Messung.
 
 ## Instanz entfernen
 

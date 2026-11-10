@@ -37,8 +37,8 @@ In CSV-Exporten und PDF-Berichten stehen dieselben Werte teilweise noch in einer
   erhalten und werden ausgegraut angezeigt.
 
 **Ausgleichszone**
-: Bereich, in dem sich das Publikum vom Lärm erholen kann. Die V-NISSG verlangt sie bei 100 dB(A) über mehr als drei
-  Stunden.
+: Bereich, in dem sich das Publikum vom Lärm erholen kann. Die V-NISSG verlangt sie bei Veranstaltungen mit einem
+  Stundenpegel über 96 dB(A), die länger als drei Stunden dauern.
 
 **Beurteilungspegel (Lr)**
 : Begriff der DIN 15905-5: der LAeq über 30 Minuten am Immissionsort, in Blöcken ab jeder vollen und halben Stunde.

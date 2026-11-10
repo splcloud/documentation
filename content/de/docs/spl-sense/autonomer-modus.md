@@ -15,7 +15,7 @@ Stromausfall oder Neustart misst das System ohne Zutun weiter.
 1. **Einstellungen** › **Autonomer Modus**.
 2. Schalte **Automatische Messung wenn eingeschaltet** auf **Ein**.
 3. Wähle die **Messung**. Zur Auswahl stehen nur offene Messungen.
-4. **Speichern**. Ist gerade keine Messung aktiv und ein Sensor verbunden, bietet SPL Sense an, die Messung sofort zu
+4. **Speichern**. Ist SPL Sense gestoppt und ein Sensor verbunden, bietet SPL Sense an, die Messung sofort zu
    starten.
 
 ## Verhalten

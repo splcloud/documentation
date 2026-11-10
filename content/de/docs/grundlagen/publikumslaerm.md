@@ -11,7 +11,7 @@ description: >-
 Hier unterscheiden sich die Regelwerke:
 
 - **V-NISSG (Schweiz):** Es zählt **alles, was am Ermittlungsort zu hören ist**: Beschallung, Bühne, Instrumente
-  und auch das Publikum.
+  und auch das Publikum (Branchenempfehlung Messverfahren).
 - **DIN 15905-5 (Deutschland):** Beurteilt wird nur der Schall der Beschallungsanlage. Publikum und andere
   Quellen sind *Störschall* und sollen das Ergebnis nicht verfälschen. Deshalb empfiehlt die Norm einen Messort, an dem
   das Publikum kaum ins Gewicht fällt.
@@ -19,7 +19,7 @@ Hier unterscheiden sich die Regelwerke:
 Die Aufzeichnung von SPL Sense enthält in beiden Fällen den gesamten Pegel am Sensor. Keine Einstellung rechnet das
 Publikum aus den gespeicherten Messwerten heraus. Wie stark es mitzählt, bestimmst du also mit der Wahl des Messorts.
 
-Auf Mittelwerte über 30 oder 60 Minuten hat das Publikum meist wenig Einfluss. Kurzzeitig kann es aber deutlich zum
+Auf den Stundenpegel hat das Publikum bei den meisten Veranstaltungen wenig Einfluss (Vollzugshilfe zur V-NISSG). Kurzzeitig kann es aber deutlich zum
 Pegel beitragen: Applaus, Sprechchöre, Mitsingen, laute Bühnenmonitore oder Regen auf einem Zeltdach.
 
 ## Was du tun kannst

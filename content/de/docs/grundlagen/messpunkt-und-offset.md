@@ -8,8 +8,8 @@ description: >-
 
 ## Ermittlungsort und Messort
 
-Die Grenzwerte gelten am **lautesten Ort im Publikumsbereich**, auf Ohrenhöhe. Die V-NISSG nennt ihn
-*Ermittlungsort*, die DIN 15905-5 *maßgeblichen Immissionsort*. Dort kann der Sensor während einer Veranstaltung
+Die Grenzwerte gelten am **lautesten Ort im Publikumsbereich**. Die V-NISSG nennt ihn *Ermittlungsort* (auf
+Ohrenhöhe), die DIN 15905-5 *maßgeblichen Immissionsort*. Dort kann der Sensor während einer Veranstaltung
 selten stehen: Mitten im Publikum wäre er gefährdet, und Zurufe und Applaus würden die Messung verfälschen.
 
 Gemessen wird deshalb an einem anderen Ort, dem **Messort** (DIN: *Ersatzimmissionsort*). Den Unterschied zwischen
@@ -63,27 +63,29 @@ Der Offset gilt pro Bewertung: Für A, C und Z gibt es je einen eigenen Wert.
 - Prüfe den Offset danach mit typischer Musik. Weicht er stark ab, miss nochmals.
 - Rechne den Offset nicht mit Faustformeln aus, miss ihn.
 - Der Offset gilt nur für diesen Lautsprecheraufbau und diesen Messort. Ändert sich eines davon, miss neu.
-- Prüfe während der Veranstaltung kurz, ob die Werte plausibel sind.
+- Prüfe während der Veranstaltung kurz, ob die Werte plausibel sind (die Vollzugshilfe zur V-NISSG nennt das als
+  Möglichkeit).
 {{% /alert %}}
 
 ## Funktionstest und Kalibrierung
 
-Beide Regelwerke verlangen, dass die Messkette funktioniert. Bei mobilen Systemen ist ein Test mit einem
-Kalibrator vor und nach jeder Veranstaltung üblich (DIN 15905-5: vorgeschrieben). SPL Sense zeigt dir den
+Bei mobilen Messsystemen verlangt die DIN 15905-5 einen Funktionstest mit Kalibrator vor und nach jeder Veranstaltung.
+Die Branchenempfehlung Messverfahren zur V-NISSG empfiehlt bei mobilen Systemen ebenfalls eine Kalibrierung vor und
+nach jeder Messung; die Vollzugshilfe selbst schreibt Veranstaltenden keine Kalibrierung vor. SPL Sense zeigt dir den
 Kalibrierstatus des Sensors und warnt vor dem Start, wenn er abgelaufen ist.
 Siehe [Sensor und Kalibrierung]({{< relref "/docs/spl-sense/sensor-und-kalibrierung" >}}).
 
 ## Dokumentieren
 
-Halte schriftlich fest, wie du gemessen hast. Beide Regelwerke verlangen ein Protokoll, mindestens mit:
+Halte schriftlich fest, wie du gemessen hast.
 
-- Ort und Datum der Veranstaltung, Beginn und Ende der Messung
-- lautester Ort im Publikum und Messort, mit Abständen und Begründung
-- Offset (Korrekturwerte) und wie du sie bestimmt hast (Signal, Pegel)
-- verwendete Messgeräte und Ergebnis des Funktionstests
-- die gemessenen Werte (der PDF-Tagesbericht von SPL Sense oder SPL Cloud)
+- **V-NISSG:** mindestens Ermittlungsort, Offset und die Methode, mit der du den Offset bestimmt hast.
+- **DIN 15905-5:** ein Messprotokoll, unter anderem mit Veranstalter, Datum und Ort, Beginn und Ende der Messung,
+  Beurteilungspegeln und Spitzenpegeln, Mess- und Kalibriergeräten, Ergebnis des Funktionstests, Lage von
+  Immissionsorten und Messort mit Begründung sowie den Korrekturwerten und wie sie bestimmt wurden. Die vollständige
+  Liste steht in der Norm im Abschnitt «Messprotokoll».
 
-Die DIN 15905-5 nennt im Abschnitt «Messprotokoll» weitere Angaben, die das Protokoll enthalten muss oder soll.
+Die gemessenen Werte liefert dir zum Beispiel der PDF-Tagesbericht.
 
 SPL Sense hilft dabei: Jede Änderung des Offsets erscheint automatisch in den Ereignissen, und mit Kommentaren hältst du
 Besonderheiten direkt in der Messung fest. In der SPL Cloud kannst du zudem Bilder vom Messort an die Messung hängen

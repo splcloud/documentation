@@ -6,7 +6,8 @@ description: >-
   Tage, Grafik, Intervall-Details, Überschreitungen, Ereignisse, Kommentare, ausgenommene Zeitbereiche und Berichte.
 ---
 
-Die Messungsseite sieht in SPL Sense und in der SPL Cloud gleich aus. Was hier steht, gilt für beide.
+Die Messungsseite sieht in SPL Sense und in der SPL Cloud gleich aus. Was hier steht, gilt für beide; Abweichungen bei
+den Berichten stehen am Schluss.
 
 ## Messtage und Grafik
 
@@ -81,12 +82,12 @@ Mit **Wieder werten?** hebst du die Ausnahme auf. Jede Änderung erscheint in de
 
 | Was | Wo |
 |---|---|
-| Tagesbericht (PDF) des gewählten Tages | Button beim Tag: **Tagesbericht des selektierten Tages öffnen** |
-| CSV des gewählten Tages | Button beim Tag: **Selektierten Tag als CSV exportieren** |
+| Tagesbericht (PDF) des gewählten Tages | Button **PDF** beim Tag |
+| CSV des gewählten Tages | Button **CSV** beim Tag |
 | CSV der ganzen Messung | Menü **Messung** › **Gesamte Messung als CSV exportieren** |
 | ganze Messung als Sicherung | **Messung exportieren**, siehe [Messungen]({{< relref "messungen#import-und-export" >}}) |
 
-Den Tagesbericht mit Abweichungen und Bildern gibt es in der SPL Cloud mit
+In der SPL Cloud gibt es den Tagesbericht, auch mit Abweichungen, sowie einen Bilderbericht mit
 [Pro]({{< relref "/docs/spl-cloud-pro/berichte-und-bilder" >}}).
 
 ## Cloud-Synchronisierung

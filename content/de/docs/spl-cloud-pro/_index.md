@@ -12,7 +12,7 @@ ohne Abo und ohne Vertragsbindung. Abgerechnet wird pro Messung und Messtag.
 | Funktion | Kurz |
 |---|---|
 | [Teilbare Links]({{< relref "teilbare-links" >}}) | Zugriff per Link oder QR-Code, ohne Konto |
-| [Berichte und Bilder]({{< relref "berichte-und-bilder" >}}) | Tagesbericht mit Abweichungen, Bilder zur Messung, Bilderbericht |
+| [Berichte und Bilder]({{< relref "berichte-und-bilder" >}}) | Tagesberichte als PDF, auch mit Abweichungen; Bilder zur Messung und Bilderbericht |
 | [Alarme]({{< relref "alarme" >}}) | E-Mail und SMS bei Überschreitung oder Ausfall |
 | [Fernsteuerung]({{< relref "fernsteuerung" >}}) | SPL Sense aus der Cloud steuern, Kommentare und ausgenommene Zeitbereiche aus der Cloud |
 
