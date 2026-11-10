@@ -3,7 +3,11 @@ title: Für Entwickler
 linkTitle: Für Entwickler
 weight: 50
 description: >-
-  SPL Sense in eigene Systeme einbinden: API, Betrieb ohne Bildschirm und Datenformate.
+  SPL Sense in eigene Systeme einbinden: API, Betrieb unter Linux und Datenformate.
 ---
 
-{{< offen >}}Einleitung zum Kapitel folgt.{{< /offen >}}
+Kurz und technisch, für alle, die SPL Sense mit eigener Software oder Hardware verbinden.
+
+- [SPL Sense API]({{< relref "sense-api" >}}): lokale HTTP-API zum Abfragen, Steuern und als Leveler-Schnittstelle
+- [Betrieb unter Linux]({{< relref "betrieb" >}}): Raspberry Pi, Webserver-Betrieb, Kiosk
+- [Datenformate]({{< relref "datenformate" >}}): CSV und `.splsense`

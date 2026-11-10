@@ -52,6 +52,6 @@ entfernt. In SPL Sense bleibt die Messung erhalten.
 | Wer | Darf |
 |---|---|
 | Besitzer der Messung (Person oder alle Mitglieder der Organisation) | alles: ansehen, Zugriff vergeben, abschliessen, löschen |
-| Besitzer des Messauftrags, falls ein anderer | ansehen |
+| Besitzer des Messauftrags, falls ein anderer | ansehen, siehe [Unterschiedliche Besitzer]({{< relref "messauftraege#unterschiedliche-besitzer" >}}) |
 | Personen mit [Lesezugriff]({{< relref "lesezugriff" >}}) | ansehen |
 | Empfänger eines [teilbaren Links]({{< relref "/docs/spl-cloud-pro/teilbare-links" >}}) | ansehen, ohne Konto |

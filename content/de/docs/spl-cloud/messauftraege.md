@@ -36,9 +36,46 @@ Jede Messung gehört höchstens zu einem Messauftrag.
 
 ## Unterschiedliche Besitzer
 
-Messauftrag und Messung können verschiedenen Besitzern gehören, zum Beispiel wenn eine gemietete Firma eine Bühne misst
-und der Veranstalter den Messauftrag führt. Die Messung behält dann ihren Besitzer; der Besitzer des Messauftrags
-erhält automatisch Lesezugriff auf sie.
+Messauftrag und Messungen können verschiedenen Besitzern gehören. Typisch: Der Veranstalter führt den Messauftrag
+«Openair 2026» in seiner Organisation, eine Technikfirma misst eine Bühne mit ihrem eigenen Laptop. Die Messung gehört
+dann der Technikfirma (dem Besitzer der Instanz, die sie hochlädt), der Messauftrag dem Veranstalter.
+
+### Zuweisen
+
+Eine Messung zuweisen kann nur, wer **beides** darf: den Messauftrag verwalten und die Messung verwalten. In der Praxis
+ist das eine Person, die in beiden Organisationen Mitglied ist. Die Messung behält beim Zuweisen ihren Besitzer.
+
+### Wer was darf
+
+Im Beispiel ist **A** die Technikfirma (Besitzer der Messung) und **B** der Veranstalter (Besitzer des Messauftrags).
+
+| | A: Besitzer der Messung | B: Besitzer des Messauftrags |
+|---|---|---|
+| Messung ansehen, Berichte und Exporte | ✓ | ✓ |
+| Messung abschliessen, löschen, Bilder hinzufügen | ✓ | |
+| Daten hochladen (nur Instanzen von A) | ✓ | |
+| [Fernsteuerung]({{< relref "/docs/spl-cloud-pro/fernsteuerung" >}}) der Instanz | ✓ | |
+| [Lesezugriff]({{< relref "lesezugriff" >}}) auf diese Messung vergeben | ✓ | |
+| Lesezugriff auf den ganzen Messauftrag vergeben (gilt auch für die Messung von A) | | ✓ |
+| Messung aus dem Messauftrag entfernen | | ✓ |
+| Pro für die Messung aktivieren (A bezahlt) | ✓ | |
+| Pro für den Messauftrag aktivieren (B bezahlt, auch für die Messung von A) | | ✓ |
+| Kosten und Lizenzdetails des Messauftrags sehen | | ✓ |
+| [Alarme]({{< relref "/docs/spl-cloud-pro/alarme" >}}) für den ganzen Messauftrag | | ✓ |
+| Alarme nur für diese Messung (überschreibt die des Messauftrags) | ✓ | |
+| [Teilbarer Link]({{< relref "/docs/spl-cloud-pro/teilbare-links" >}}) auf die Messung (braucht Pro auf der Messung) | ✓ | |
+| Teilbarer Link auf den Messauftrag (braucht Pro auf dem Messauftrag, zeigt auch die Messung von A) | | ✓ |
+
+«A» und «B» stehen jeweils für die Person bzw. alle Mitglieder der Organisation, der Messung oder Messauftrag gehört.
+
+### Pro bei unterschiedlichen Besitzern
+
+- Aktiviert **B** Pro für den Messauftrag, bezahlt **B** für alle Messungen darin, auch für die von A, in der Währung
+  von B.
+- Hat **A** Pro schon direkt auf der Messung aktiviert, bleibt es dabei: Diese Messung bezahlt weiterhin A.
+- Deaktiviert A die direkte Aktivierung, während der Messauftrag Pro ist, bleibt die Messung über den Messauftrag Pro.
+
+Siehe auch [Preise und Abrechnung]({{< relref "/docs/spl-cloud-pro/abrechnung" >}}).
 
 ## Bearbeiten und löschen
 

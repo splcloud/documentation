@@ -39,6 +39,8 @@ Rechnungsadresse wird für die Mehrwertsteuer benötigt.
 | du persönlich | **Einstellungen** › **Zahlung** | du |
 | eine Organisation | Seite der Organisation › **Abrechnung** | ein Besitzer der Organisation |
 
+Bei Pro für einen Messauftrag braucht der Besitzer des Messauftrags die Zahlungsmethode.
+
 1. Wähle die **Abrechnungswährung**: CHF oder EUR. Sie lässt sich danach nicht mehr ändern.
 2. Klicke auf **Zahlung einrichten**. Die Zahlung läuft über den Zahlungsdienst Stripe; dort wählst du das
    Zahlungsmittel und gibst die Rechnungsadresse ein. Welche Zahlungsmittel möglich sind, siehst du dort.
@@ -61,9 +63,14 @@ Auf der Seite des Messauftrags **Pro für den Job aktivieren**. Damit sind alle 
 solche, die später dazukommen. Jede Messung wird trotzdem einzeln nach ihren Messtagen abgerechnet, mit ihrer eigenen
 Obergrenze.
 
+Bezahlt wird vom **Besitzer des Messauftrags**, auch für Messungen, die jemand anderem gehören. Messungen, für die ihr
+Besitzer Pro schon direkt aktiviert hat, bezahlt weiterhin dieser. Details unter
+[Unterschiedliche Besitzer]({{< relref "/docs/spl-cloud/messauftraege#unterschiedliche-besitzer" >}}).
+
 ### Gratis-Teststunde
 
-Beim ersten Aktivieren einer Messung hast du eine Stunde Zeit zum Ausprobieren. Deaktivierst du Pro innerhalb dieser
+Beim ersten direkten Aktivieren einer Messung hast du eine Stunde Zeit zum Ausprobieren. Bei der Aktivierung über den
+Messauftrag gibt es keine Teststunde. Deaktivierst du Pro innerhalb dieser
 Stunde, kostet es nichts, auch nicht für bereits aufgezeichnete Tage. Solange die Teststunde läuft, zeigt die Messung
 **Gratis-Teststunde läuft**.
 

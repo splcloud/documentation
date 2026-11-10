@@ -24,7 +24,7 @@ kannst du nur in der Desktop-App.
 | Windows (64 Bit) | [SPLSenseSetup.exe](https://r.spl.swiss/dl/splsense/win-x64/SPLSenseSetup.exe) |
 | macOS mit Apple-Chip (M1 und neuer) | [SPLSense-osx-arm64-Setup.pkg](https://r.spl.swiss/dl/splsense/osx-arm64/SPLSense-osx-arm64-Setup.pkg) |
 | macOS mit Intel-Prozessor | [SPLSense-osx-x64-Setup.pkg](https://r.spl.swiss/dl/splsense/osx-x64/SPLSense-osx-x64-Setup.pkg) |
-| Linux | siehe [Betrieb ohne Bildschirm]({{< relref "/docs/entwickler/betrieb" >}}) |
+| Linux | siehe [Betrieb unter Linux]({{< relref "/docs/entwickler/betrieb" >}}) |
 
 Öffne die heruntergeladene Datei und folge dem Installationsprogramm. Welchen Mac du hast, siehst du unter
 Apple-Menü › **Über diesen Mac**: «Chip» bedeutet Apple-Chip, «Prozessor» Intel.
