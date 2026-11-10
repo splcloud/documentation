@@ -11,10 +11,10 @@ ohne Abo und ohne Vertragsbindung. Abgerechnet wird pro Messung und Messtag.
 
 | Funktion | Kurz |
 |---|---|
-| [Teilbare Links]({{< relref "teilbare-links" >}}) | Zugriff per Link oder QR-Code, ohne Konto |
-| [Berichte und Bilder]({{< relref "berichte-und-bilder" >}}) | Tagesberichte als PDF, auch mit Abweichungen; Bilder zur Messung und Bilderbericht |
-| [Alarme]({{< relref "alarme" >}}) | E-Mail und SMS bei Überschreitung oder Ausfall |
-| [Fernsteuerung]({{< relref "fernsteuerung" >}}) | SPL Sense aus der Cloud steuern, Kommentare und ausgenommene Zeitbereiche aus der Cloud |
+| [Teilbare Links]({{< relref "shared-links" >}}) | Zugriff per Link oder QR-Code, ohne Konto |
+| [Berichte und Bilder]({{< relref "reports-and-pictures" >}}) | Tagesberichte als PDF, auch mit Abweichungen; Bilder zur Messung und Bilderbericht |
+| [Alarme]({{< relref "alarms" >}}) | E-Mail und SMS bei Überschreitung oder Ausfall |
+| [Fernsteuerung]({{< relref "remote-control" >}}) | SPL Sense aus der Cloud steuern, Kommentare und ausgenommene Zeitbereiche aus der Cloud |
 
-Was Pro kostet und wie es abgerechnet wird, steht unter [Preise und Abrechnung]({{< relref "abrechnung" >}}).
+Was Pro kostet und wie es abgerechnet wird, steht unter [Preise und Abrechnung]({{< relref "pricing-and-billing" >}}).
 Lies diese Seite, bevor du Pro zum ersten Mal aktivierst.

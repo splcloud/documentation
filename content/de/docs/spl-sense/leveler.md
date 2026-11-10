@@ -19,12 +19,12 @@ Der Leveler gehört zur Messung: Jede Messung hat ihre eigenen Leveler-Einstellu
 |---|---|
 | **SPL Tools L1 (USB)** | Der L1 hängt per USB am Computer mit SPL Sense. Standard für neue Messungen. |
 | **SPL Tools L1 (Netzwerk)** | Der L1 steht woanders, zum Beispiel im Rack bei der Endstufe, und ist per Ethernet oder WLAN erreichbar. |
-| **Externer Audioprozessor (SenseAPI)** | Ein Audioprozessor mit SPL-Sense-Plugin fragt SPL Sense über die [API]({{< relref "/docs/entwickler/sense-api" >}}) ab. |
+| **Externer Audioprozessor (SenseAPI)** | Ein Audioprozessor mit SPL-Sense-Plugin fragt SPL Sense über die [API]({{< relref "/docs/developers/sense-api" >}}) ab. |
 
 Für Q-SYS gibt es das Plugin **SPL Sense Leveler**: [herunterladen](https://r.spl.swiss/sense/leveler/plugin).
 Füge es in dein Q-SYS-Design ein und trage im Plugin die IP-Adresse des Computers mit SPL Sense, den Port und den
 API Key ein. In SPL Sense muss unter **Einstellungen** › **API** der Modus **Nur externer Leveler** oder
-**Vollzugriff** eingeschaltet sein, siehe [SPL Sense API]({{< relref "/docs/entwickler/sense-api" >}}). Stimmen die
+**Vollzugriff** eingeschaltet sein, siehe [SPL Sense API]({{< relref "/docs/developers/sense-api" >}}). Stimmen die
 Angaben, zeigt das Plugin den Zustand und die Messwerte von SPL Sense an.
 
 ### SPL Tools L1 über USB
@@ -73,7 +73,7 @@ Grenzwerte und Modus gehören nicht hierher, sondern in die Leveler-Einstellunge
 | **Leveler mit Panikfunktion** | Wie der einfache Leveler, regelt aber schnell zurück, wenn der Pegel plötzlich deutlich über den Grenzwert steigt. |
 | **Leveler mit Panikfunktion und Publikumskompensation** | Zusätzlich erkennt SPL Sense, welcher Anteil des Pegels nicht von der Beschallung kommt (zum Beispiel Publikum), und regelt nur den Anteil der Beschallung. Braucht einen eingemessenen Line Offset. |
 
-Hintergrund zur Publikumskompensation: [Publikumslärm]({{< relref "/docs/grundlagen/publikumslaerm" >}}).
+Hintergrund zur Publikumskompensation: [Publikumslärm]({{< relref "/docs/basics/audience-noise" >}}).
 
 ## Grenzwerte
 
@@ -156,4 +156,4 @@ Messungsseite einen Hinweis.
 
 Die Leveler-Einstellungen lassen sich bei jeder offenen Messung ändern, auch ohne Sensor und auch, wenn sie nicht aktiv
 ist. Bei einer abgeschlossenen Messung nicht. Aus der SPL Cloud lassen sich Modus, Grenzwerte und Line Offsets per
-[Fernsteuerung]({{< relref "/docs/spl-cloud-pro/fernsteuerung" >}}) ändern, nicht aber die Verbindung und das Einmessen.
+[Fernsteuerung]({{< relref "/docs/spl-cloud-pro/remote-control" >}}) ändern, nicht aber die Verbindung und das Einmessen.

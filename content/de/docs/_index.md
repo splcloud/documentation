@@ -13,13 +13,13 @@ Zusammenarbeit im Team). Die Dokumentation beschreibt Version 2.0.
 
 | Du willst … | Lies … |
 |---|---|
-| zum ersten Mal messen | [Schnellstart]({{< relref "schnellstart" >}}): Messung anlegen, Offset einstellen, messen, in der Cloud archivieren, PDF-Bericht |
+| zum ersten Mal messen | [Schnellstart]({{< relref "quick-start" >}}): Messung anlegen, Offset einstellen, messen, in der Cloud archivieren, PDF-Bericht |
 | SPL Sense genau kennen: Werteprofile, Live-Anzeige, Leveler, Kalibrierung, autonomer Modus | [SPL Sense]({{< relref "spl-sense" >}}) |
 | SPL Sense auf einem Raspberry Pi als feste Messstation betreiben | [SPL Sense für Linux]({{< relref "linux" >}}) |
 | mit mehreren Messpunkten, im Team oder mit Behörden arbeiten | [SPL Cloud]({{< relref "spl-cloud" >}}) |
 | Alarme, Fernsteuerung, teilbare Links, Berichte mit Abweichungen und Bildern | [SPL Cloud Pro]({{< relref "spl-cloud-pro" >}}) |
-| SPL Sense in eigene Systeme einbinden | [Für Entwickler]({{< relref "entwickler" >}}) |
-| Begriffe wie LAeq, A/C/Z oder Offset nachschlagen | [Grundlagen]({{< relref "grundlagen" >}}) |
+| SPL Sense in eigene Systeme einbinden | [Für Entwickler]({{< relref "developers" >}}) |
+| Begriffe wie LAeq, A/C/Z oder Offset nachschlagen | [Grundlagen]({{< relref "basics" >}}) |
 
 ## Hilfe in der App
 

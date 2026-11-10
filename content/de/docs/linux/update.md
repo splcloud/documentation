@@ -10,7 +10,7 @@ description: >-
 
 SPL Sense aktualisiert sich unter Linux wie auf den anderen Plattformen selbst: Ist eine neue Version verfügbar,
 erscheint auf der Übersicht **Update verfügbar**. Stoppe die Messung und klicke auf **Update** und
-**Aktualisieren und neu starten**. Siehe [Installation und Updates]({{< relref "/docs/spl-sense/installation-und-updates#updates" >}}).
+**Aktualisieren und neu starten**. Siehe [Installation und Updates]({{< relref "/docs/spl-sense/installation-and-updates#updates" >}}).
 
 Das funktioniert, wenn SPL Sense wie in der [Installation]({{< relref "installation" >}}) beschrieben eingerichtet ist.
 

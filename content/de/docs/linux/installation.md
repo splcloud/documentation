@@ -113,5 +113,5 @@ sudo reboot
 SPL Sense startet jetzt bei jedem Hochfahren automatisch und läuft im Hintergrund. Öffne im Browser des Raspberry Pi
 oder eines anderen Geräts im Netzwerk die IP-Adresse mit dem Port, zum Beispiel `http://192.168.10.144:8080`.
 
-Weiter geht es wie auf jeder anderen Plattform, zum Beispiel mit dem [Schnellstart]({{< relref "/docs/schnellstart#2-sensor-anschliessen" >}}).
-Für den Betrieb als feste Messstation siehe [Betrieb]({{< relref "betrieb" >}}).
+Weiter geht es wie auf jeder anderen Plattform, zum Beispiel mit dem [Schnellstart]({{< relref "/docs/quick-start#2-sensor-anschliessen" >}}).
+Für den Betrieb als feste Messstation siehe [Betrieb]({{< relref "operation" >}}).

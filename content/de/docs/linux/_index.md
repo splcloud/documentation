@@ -16,7 +16,7 @@ Anleitung beschreibt den Raspberry Pi.
 1. [Hardware und Betriebssystem]({{< relref "hardware" >}}): was du brauchst und wie du den Raspberry Pi vorbereitest
 2. [Installation]({{< relref "installation" >}}): SPL Sense installieren und als Dienst einrichten
 3. [Update]({{< relref "update" >}})
-4. [Betrieb]({{< relref "betrieb" >}}): Zugriff, Kiosk-Anzeige und Betrieb ohne Bedienung
+4. [Betrieb]({{< relref "operation" >}}): Zugriff, Kiosk-Anzeige und Betrieb ohne Bedienung
 
 Kennst du dich mit Linux, SSH und der Kommandozeile aus, kannst du direkt mit der [Installation]({{< relref "installation" >}})
 beginnen.
