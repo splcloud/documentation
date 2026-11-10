@@ -1,28 +1,15 @@
 ---
-title: V-NISSG und DIN 15905-5
-linkTitle: V-NISSG und DIN 15905-5
+title: Vorlagen für V-NISSG und DIN 15905-5
+linkTitle: Vorlagen V-NISSG / DIN
 weight: 5
 description: >-
-  Die wichtigsten Vorgaben für die Schweiz und Deutschland im Vergleich, und welche Vorlage in SPL Sense dazu passt.
+  Welche Werteprofile und Live-Anzeigen SPL Sense für die Schweiz und Deutschland mitbringt.
 ---
 
-SPL Sense bringt Werteprofile und Live-Anzeigen für beide Regelwerke mit. Diese Seite fasst zusammen, was für die
-Bedienung wichtig ist. Massgebend sind die Originaldokumente (Links unten).
+SPL Sense bringt Werteprofile und Live-Anzeigen für die V-NISSG (Schweiz) und die DIN 15905-5 (Deutschland) mit.
+Welche Vorgaben für deine Veranstaltung gelten, entnimmst du den Originaldokumenten (unten).
 
-## Im Vergleich
-
-| | Schweiz: V-NISSG | Deutschland: DIN 15905-5:2022 |
-|---|---|---|
-| Art | Verordnung des Bundes | Norm (Stand der Technik) |
-| Beurteilte Grösse | LAeq über 60 Minuten (Stundenpegel), für jedes beliebige 60-Minuten-Intervall | Beurteilungspegel: LAeq über 30 Minuten, Blöcke ab jeder vollen und halben Stunde |
-| Grenzwerte | 93, 96 oder 100 dB(A), je nach gemeldeter Kategorie | 99 dB(A) |
-| Spitzen | LAFmax höchstens 125 dB(A) | LCpeak höchstens 135 dB(C) |
-| Gilt am | lautesten Ort im Publikum, auf Ohrenhöhe (Ermittlungsort) | Orten mit den höchsten Pegeln im Publikum (maßgebliche Immissionsorte) |
-| Messen an anderem Ort | erlaubt, mit vorher bestimmtem Offset | erlaubt (Ersatzimmissionsort), mit Korrekturwerten KA und KC |
-| Publikumslärm | zählt zum Pegel | Störschall, wird nicht beurteilt |
-| Aufzeichnung | ab 100 dB(A) und mehr als 3 Stunden, LAeq 5′ lückenlos, 6 Monate aufbewahren | fortlaufende Messung ab vor Beginn, Messprotokoll |
-
-## Passende Vorlagen in SPL Sense
+## Werteprofile
 
 | Vorlage | Werte und Schwellen (Benachrichtigung / Warnung / Limit) |
 |---|---|
@@ -32,22 +19,16 @@ Bedienung wichtig ist. Massgebend sind die Originaldokumente (Links unten).
 | **DIN 15905-5** | LAeq 30′: – / 95 / 99 · LAeq 5′: – / 95 / 99 · LCFmax 1′: Limit 135 |
 
 Die Werte lassen sich pro Messung anpassen, siehe [Werteprofile]({{< relref "/docs/spl-sense/werteprofile" >}}).
+Die passenden Live-Anzeigen heissen gleich wie die Vorlagen, jeweils auch in einer Variante mit Leveler-Anzeige.
 
-{{% alert title="Hinweise zu DIN 15905-5" color="info" %}}
-- SPL Sense rechnet LAeq 30′ als gleitenden Mittelwert über die letzten 30 Minuten. Der Wert zur vollen und zur halben
-  Stunde entspricht dem Beurteilungspegel des abgelaufenen Blocks.
-- Die Anzeige für das Bedienpersonal soll laut Norm einen LAeq über mindestens 5 Sekunden zeigen, gelb ab 95 dB,
-  rot über 99 dB. Die eingebauten Live-Anzeigen **DIN 15905-5** sind so eingestellt.
-{{% /alert %}}
+SPL Sense rechnet Mittelwerte wie LAeq 30′ oder LAeq 60′ gleitend über die letzten 30 bzw. 60 Minuten. Der Wert zur
+vollen und zur halben Stunde entspricht dem Mittelwert über die abgelaufene halbe Stunde.
 
-{{< offen >}}SPL Sense misst keinen Spitzenpegel LCpeak, die Vorlage überwacht LCFmax 1′. Wie wollen wir das in der Doku
-formulieren?{{< /offen >}}
+{{< offen >}}SPL Sense misst keinen Spitzenpegel LCpeak, die Vorlage DIN 15905-5 überwacht LCFmax 1′. Formulierung klären.{{< /offen >}}
 
 ## Originaldokumente
 
-- [Vollzugshilfe V-NISSG, Schall](https://www.bag.admin.ch/dam/de/sd-web/YE91ECm2uBte/V-NISSG_Vollzugshilfe%20Schall_%20DE.pdf),
-  Bundesamt für Gesundheit (BAG)
-- [Messverfahren zur Ermittlung von Schallpegeln an Veranstaltungen](https://www.bag.admin.ch/dam/de/sd-web/MiPiTdLBjxC8/emfehlungen_messverfahren.pdf),
-  Arbeitsgruppe Messverfahren V-NISSG
-- [DIN 15905-5:2022-07](https://www.dinmedia.de/de/norm/din-15905-5/352773526), Veranstaltungstechnik – Tontechnik –
-  Teil 5: Maßnahmen zum Vermeiden einer Gehörgefährdung des Publikums (kostenpflichtig bei DIN Media)
+- Bundesamt für Gesundheit (BAG): *Vollzugshilfe zur V-NISSG, Schall* und *Messverfahren zur Ermittlung von
+  Schallpegeln an Veranstaltungen*, auf der Website des BAG
+- [DIN 15905-5:2022-07](https://doi.org/10.31030/3343057), Veranstaltungstechnik – Tontechnik – Teil 5: Maßnahmen zum
+  Vermeiden einer Gehörgefährdung des Publikums durch hohe Schallemissionen elektroakustischer Beschallungstechnik

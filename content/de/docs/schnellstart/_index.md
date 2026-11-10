@@ -48,7 +48,7 @@ Eine **Messung** steht für einen Messpunkt, zum Beispiel «Hauptbühne Openair 
    - **Werteprofil**: Legt fest, welche Werte berechnet werden und welche Grenzwerte gelten. Für Veranstaltungen in der
      Schweiz wählst du die Vorlage, die zu deiner gemeldeten Kategorie passt: **VNISSG 93dBA**, **VNISSG 96dBA** oder
      **VNISSG 100dBA**. In Deutschland wählst du **DIN 15905-5**.
-     Was die Vorlagen enthalten: [V-NISSG und DIN 15905-5]({{< relref "/docs/grundlagen/vorschriften" >}}).
+     Was die Vorlagen enthalten: [Vorlagen für V-NISSG und DIN 15905-5]({{< relref "/docs/grundlagen/vorschriften" >}}).
    - **Tagesgrenze**: Wann ein Messtag endet. Wähle eine Zeit etwa zwei Stunden nach dem Ende der Veranstaltung,
      spätestens 06:00 Uhr. So landet eine Party, die bis 03:00 Uhr dauert, in *einem* Tag und nicht in zwei.
    - **Cloud Synchronisierung**: Lass das vorerst aus. Du schaltest es ein, sobald SPL Sense mit der Cloud verbunden ist

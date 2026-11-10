@@ -87,4 +87,4 @@ SPL Sense hilft dabei: Jede Änderung des Offsets erscheint automatisch in den E
 Besonderheiten direkt in der Messung fest. In der SPL Cloud kannst du zudem Bilder vom Messort an die Messung hängen
 ([SPL Cloud Pro]({{< relref "/docs/spl-cloud-pro/berichte-und-bilder" >}})).
 
-Links zu den Originaldokumenten: [V-NISSG und DIN 15905-5]({{< relref "vorschriften" >}}).
+Originaldokumente: siehe [Vorlagen für V-NISSG und DIN 15905-5]({{< relref "vorschriften" >}}).

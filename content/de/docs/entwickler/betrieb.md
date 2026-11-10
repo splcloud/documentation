@@ -10,5 +10,4 @@ description: >-
 
 - SPL Sense als Webserver unter Linux (ARM/ARM64)
 - Kiosk-URL /measurement/live?kiosk
-- Datenverzeichnis per SPLSENSE_DATA
 - Autonomer Modus und Operator-PIN für unbeaufsichtigten Betrieb

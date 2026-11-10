@@ -6,9 +6,50 @@ description: >-
   Windows, macOS und Linux, Updates und wo SPL Sense seine Daten ablegt.
 ---
 
-{{< offen >}}Kapitel noch nicht ausgeschrieben. Geplanter Inhalt:{{< /offen >}}
+## Plattformen
 
-- Systemvoraussetzungen: Windows, macOS, Linux (ARM/ARM64, z.B. Raspberry Pi) im Webserver-Modus
-- Installation pro Plattform, erster Start und Hinweis
-- Updates: automatische Prüfung, Update installieren (Messung vorher stoppen)
-- Datenablage und Sicherung (Standardordner pro Betriebssystem)
+| Plattform | Betrieb |
+|---|---|
+| Windows | Desktop-App |
+| macOS (Apple Silicon und Intel) | Desktop-App |
+| Linux auf ARM und ARM64, z.B. Raspberry Pi | Webserver: Bedienung im Browser, auch von Tablet oder Handy im selben Netzwerk |
+
+Die Funktionen sind überall gleich. Einzige Ausnahme: Den Sensor [kalibrieren]({{< relref "sensor-und-kalibrierung" >}})
+kannst du nur in der Desktop-App.
+
+Den Betrieb unter Linux beschreibt der Teil [Für Entwickler]({{< relref "/docs/entwickler/betrieb" >}}).
+
+{{< offen >}}Download-Adresse und Installationsschritte pro Plattform ergänzen.{{< /offen >}}
+
+## Erster Start
+
+Beim ersten Start zeigt SPL Sense einen Hinweis zum Datenschutz. Mit **Akzeptieren und Fortfahren** geht es weiter,
+mit **Applikation beenden** wird SPL Sense geschlossen.
+
+## Updates
+
+SPL Sense prüft selbst, ob eine neue Version verfügbar ist. Ist das der Fall, erscheint auf der Übersicht der Hinweis
+**Update verfügbar** mit den Buttons **Update** und **Später erinnern**.
+
+1. Stoppe eine laufende Messung. Während einer Messung lässt sich kein Update installieren.
+2. Klicke auf **Update** und danach auf **Aktualisieren und neu starten**.
+3. SPL Sense lädt die neue Version, installiert sie und startet neu.
+
+Startet SPL Sense nach dem Update nicht von selbst, starte es von Hand. Nach einem Neustart ist keine Messung aktiv,
+ausser der [autonome Modus]({{< relref "autonomer-modus" >}}) ist eingeschaltet.
+
+Die aktuelle Version und die Versionsgeschichte findest du unter **Einstellungen** › **Über**.
+
+## Wo die Daten liegen
+
+SPL Sense speichert alle Messungen lokal auf dem Computer:
+
+| Plattform | Ordner |
+|---|---|
+| Windows | `%AppData%\SPLSense` |
+| macOS | `~/Library/SPLSense` |
+| Linux | `~/.SPLSense` |
+
+Sichere diesen Ordner regelmässig oder schalte für deine Messungen die
+[Cloud Synchronisierung]({{< relref "einstellungen#spl-cloud" >}}) ein. Einzelne Messungen sicherst du als
+`.splsense`-Datei, siehe [Import und Export]({{< relref "messungen#import-und-export" >}}).
