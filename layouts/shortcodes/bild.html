@@ -1,0 +1,28 @@
+{{- /*
+  Bild mit Platzhalter.
+  Aufruf: {{< bild id="sense-messung-erstellen" >}}
+  Beschreibung, Route, Zustand stehen in data/screenshots.yaml (gleiche id).
+  Das Bild liegt unter static/bilder/<sprache>/<id>.png. Fehlt es, wird ein Platzhalter angezeigt.
+*/ -}}
+{{- $id := .Get "id" -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $info := index site.Data.screenshots $id -}}
+{{- $alt := $id -}}
+{{- with $info }}{{ $alt = .alt }}{{ end -}}
+{{- with $.Get "alt" }}{{ $alt = . }}{{ end -}}
+{{- $file := printf "bilder/%s/%s.png" $lang $id -}}
+{{- if fileExists (printf "static/%s" $file) -}}
+<figure class="spl-bild">
+  <img src="{{ printf "/%s" $file | relURL }}" alt="{{ $alt }}" loading="lazy">
+  {{- with $.Get "text" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
+{{- else -}}
+{{- if not $info }}{{ warnf "bild: id %q fehlt in data/screenshots.yaml (%s)" $id $.Page.File.Path }}{{ end -}}
+<div class="spl-bild-platzhalter">
+  <div class="spl-bild-platzhalter-titel">Bild: <code>{{ $id }}</code></div>
+  {{- with $info }}
+  <div>{{ .alt }}</div>
+  <div class="spl-bild-platzhalter-meta">{{ .produkt }}{{ with .route }} · <code>{{ . }}</code>{{ end }}{{ with .breite }} · {{ . }} px{{ end }}{{ with .zustand }}<br>Zustand: {{ . }}{{ end }}</div>
+  {{- end }}
+</div>
+{{- end -}}

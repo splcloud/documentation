@@ -1,0 +1,26 @@
+// Bilder und Platzhalter (Shortcode "bild")
+.spl-bild {
+  margin: 1.5rem 0;
+  img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
+  figcaption { font-size: .875rem; color: #666; margin-top: .4rem; }
+}
+.spl-bild-platzhalter {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 2px dashed #968193;
+  border-radius: 6px;
+  background: #f7f3f6;
+  font-size: .9rem;
+  .spl-bild-platzhalter-titel { font-weight: 600; margin-bottom: .25rem; }
+  .spl-bild-platzhalter-meta { color: #666; margin-top: .4rem; font-size: .8rem; }
+}
+// Offene Punkte (Shortcode "offen")
+.spl-offen {
+  margin: 1rem 0;
+  padding: .6rem 1rem;
+  border-left: 4px solid #e5a000;
+  background: #fff8e5;
+  font-size: .9rem;
+}
+// Tastenkürzel
+kbd { font-size: .8em; }

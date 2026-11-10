@@ -1,0 +1,44 @@
+# Bildliste für die Dokumentation.
+# Jede id wird im Text mit {{< bild id="..." >}} eingebunden.
+# Bilddatei: static/bilder/<sprache>/<id>.png (z.B. static/bilder/de/sense-messung-erstellen.png)
+# Fehlt die Datei, zeigt die Seite einen Platzhalter mit diesen Angaben.
+#
+# Felder:
+#   alt      Was auf dem Bild zu sehen sein soll (wird auch als Alternativtext verwendet)
+#   produkt  SPL Sense oder SPL Cloud
+#   route    Adresse in der App
+#   zustand  Was vorbereitet sein muss
+#   breite   Fensterbreite in Pixel (1280 Desktop, 390 Handy)
+#   seite    Wo das Bild verwendet wird
+
+sense-messung-erstellen:
+  alt: Formular «Neue Messung erstellen» mit Name, Werteprofil (VNISSG 96dBA gewählt), Tagesgrenze und Cloud Synchronisierung
+  produkt: SPL Sense
+  route: /measurement/create
+  zustand: Formular ausgefüllt, noch nicht gespeichert
+  breite: 1280
+  seite: schnellstart
+
+sense-offsets-tunen:
+  alt: Seite «Offsets tunen» mit Level, Max, Offset und Level inkl. offset für A, C und Z
+  produkt: SPL Sense
+  route: /measurement/{id}/tune-offsets
+  zustand: Sensor angeschlossen, Messung aktiv und gestoppt, Pegel vorhanden
+  breite: 1280
+  seite: schnellstart
+
+sense-messung-laeuft:
+  alt: Messungsseite während der Messung mit Live-Leiste, Tagesgrafik, Buttons Live Ansicht und Stopp
+  produkt: SPL Sense
+  route: /measurement/{id}
+  zustand: Messung läuft seit mindestens einer Stunde, Werteprofil VNISSG 96dBA
+  breite: 1280
+  seite: schnellstart
+
+cloud-tagesbericht:
+  alt: Messungsseite in der SPL Cloud, Tag gewählt, Button für den Tagesbericht hervorgehoben
+  produkt: SPL Cloud
+  route: /measurement/{id}
+  zustand: Messung mit mindestens zwei Messtagen
+  breite: 1280
+  seite: schnellstart
