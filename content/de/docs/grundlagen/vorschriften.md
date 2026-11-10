@@ -21,8 +21,10 @@ Welche Vorgaben für deine Veranstaltung gelten, entnimmst du den Originaldokume
 Die Werte lassen sich pro Messung anpassen, siehe [Werteprofile]({{< relref "/docs/spl-sense/werteprofile" >}}).
 Die passenden Live-Anzeigen heissen gleich wie die Vorlagen, jeweils auch in einer Variante mit Leveler-Anzeige.
 
-SPL Sense rechnet Mittelwerte wie LAeq 30′ oder LAeq 60′ gleitend über die letzten 30 bzw. 60 Minuten. Der Wert zur
-vollen und zur halben Stunde entspricht dem Mittelwert über die abgelaufene halbe Stunde.
+SPL Sense rechnet Mittelwerte wie LAeq 30′ oder LAeq 60′ jede Minute gleitend über die letzten 30 bzw. 60 Minuten.
+Der Wert zur vollen und zur halben Stunde entspricht dem Mittelwert über die abgelaufene halbe Stunde, also dem
+30-Minuten-Block der DIN 15905-5. Bleibt LAeq 30′ jederzeit unter dem Grenzwert, sind damit auch alle Blöcke
+eingehalten.
 
 Für den Spitzenpegel verwendet die Vorlage **DIN 15905-5** den Wert **LCFmax 1′**: den höchsten C-bewerteten
 Fast-Wert (125 ms) innerhalb einer Minute.
