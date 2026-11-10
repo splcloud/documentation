@@ -1,0 +1,27 @@
+# Bildliste für die Dokumentation.
+#
+# Grundsatz: so wenige Bilder wie möglich. Ein Bild nur dort, wo eine Seite mit vielen Elementen
+# Orientierung braucht. Keine Bilder von einzelnen Buttons oder Formularen, die der Text beschreibt.
+#
+# Jede id wird im Text mit {{< bild id="..." >}} eingebunden.
+# Bilddatei: static/bilder/<sprache>/<id>.png (z.B. static/bilder/de/sense-messung-erstellen.png)
+# Fehlt die Datei, zeigt die Seite einen Platzhalter mit diesen Angaben.
+#
+# Felder:
+#   alt      Was auf dem Bild zu sehen sein soll (wird auch als Alternativtext verwendet)
+#   produkt  SPL Sense oder SPL Cloud
+#   route    Adresse in der App
+#   zustand  Was vorbereitet sein muss
+#   breite   Fensterbreite in Pixel (1280 Desktop, 390 Handy)
+#   seite    Wo das Bild verwendet wird
+
+
+
+sense-messung-laeuft:
+  alt: Messungsseite während der Messung mit Live-Leiste, Tagesgrafik, Buttons Live Ansicht und Stopp
+  produkt: SPL Sense
+  route: /measurement/{id}
+  zustand: Messung läuft seit mindestens einer Stunde, Werteprofil VNISSG 96dBA
+  breite: 1280
+  seite: schnellstart
+
